@@ -12,7 +12,7 @@ Kuba
 **************
 Vojta
 # Animace – slide
-# Tlačítko back to top
+# Tlačítko back to top – Hotovo
 # Animace – header
 
 **************************************************
