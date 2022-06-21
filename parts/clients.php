@@ -16,8 +16,8 @@
                     Tomáš Pizza
                 </div>
                 <div class="flex-left-center">
-                    23 let, golf hraje od 19 let, profesionálem
-                    od 2020.
+                23 let, golf hraje od 19 let, pochází z Olomouc profesionálem
+                            od 2020.
                 </div>
             </div>
         </div>
@@ -42,8 +42,10 @@
                         Tomáš Pizza
                     </div>
                     <div class="flex-left-center">
-                        23 let, golf hraje od 19 let, profesionálem
-                        od 2020.
+                        <p class="clients-client-about-text">
+                            23 let, golf hraje od 19 let, pochází z Olomouc profesionálem
+                            od 2020.
+                        </p>
                     </div>
                 </div>
             </div>

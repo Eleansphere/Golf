@@ -1,13 +1,13 @@
 <div class="part-title">
-        <div class="left-flex-center">
-            SLUŽBY
-        </div>
-        <div class="left-flex-center">
-            <div class="part-ttile-line">
+    <div class="left-flex-center">
+        SLUŽBY
+    </div>
+    <div class="left-flex-center">
+        <div class="part-ttile-line">
 
-            </div>
         </div>
     </div>
+</div>
 <div class="services">
     <div class="article">
         <div class="article-title">

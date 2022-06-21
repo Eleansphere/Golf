@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLASHNEWS</title>
-    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="styles4.css">
 </head>
 
 
@@ -27,6 +27,12 @@
             </div>
         </div>
     </div>
+    <?php include("parts/investice.php") ?>
+
+    <?php include("parts/contact.php") ?>
+    <footer>
+        Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
+    </footer>
 </body>
 <script>
     function moveRowRight() {
