@@ -8,5 +8,5 @@
 </div>
 
 <video playsinline autoplay muted loop>
-    <source src="videos/golf2.mp4" type="video/mp4 ">
+    <source src="videos/golf.mp4" type="video/mp4 ">
 </video>

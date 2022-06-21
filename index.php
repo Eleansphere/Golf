@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLASHNEWS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
 </head>
 
 
@@ -13,9 +13,13 @@
     <?php include("parts/slidepanel.php") ?>
     <?php include("parts/menu.php") ?>
     <?php include("parts/articlesAbout.php") ?>
+    <?php include("parts/services.php") ?>
+    <?php include("parts/galleryPanel.php") ?>
+    <?php include("parts/clients.php") ?>
+
     <div class="part-title">
         <div class="left-flex-center">
-            SLUŽBY
+            INVESTICE
         </div>
         <div class="left-flex-center">
             <div class="part-ttile-line">
@@ -23,9 +27,6 @@
             </div>
         </div>
     </div>
-    <?php include("parts/services.php") ?>
-    <?php include("parts/galleryPanel.php") ?>
-
 </body>
 <script>
     function moveRowRight() {
