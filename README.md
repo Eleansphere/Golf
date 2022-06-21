@@ -7,7 +7,7 @@ Dodělat
 Kuba
 # Responzivita
 # Investice
-# Footer
+# Footer - Hotovo
 # Formulář
 **************
 Vojta
