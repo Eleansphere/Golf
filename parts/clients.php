@@ -28,4 +28,26 @@
             </div>
         </div>
     </div>
+    <div>
+        <div class="clients-client-right">
+            <div class="all-flex-center">
+
+                <div class="clients-client-img">
+
+                </div>
+            </div>
+            <div class="all-flex-center">
+                <div class="clients-client-about">
+                    <div class="clients-client-about-title">
+                        Tomáš Pizza
+                    </div>
+                    <div class="flex-left-center">
+                        23 let, golf hraje od 19 let, profesionálem
+                        od 2020.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
