@@ -32,7 +32,7 @@
     <?php include("parts/contact.php") ?>
     <footer>
         Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
-        <button class="footer-scroll-btn">UP</button>
+        <button class="footer-scroll-btn"><img src="pictures/back_to_top.svg" alt=""></button>
         <!-- vyrobím nějakou ikonu, text je jen dočasný --> 
     </footer>
 </body>
