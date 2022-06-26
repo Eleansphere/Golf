@@ -5,10 +5,10 @@ website about golf
 Dodělat
 ***************
 Kuba
-# Responzivita
-# Investice - hotovo
+# Responzivita -Hotovo
+# Investice - Hotovo
 # Footer - Hotovo
-# Formulář - hotovo
+# Formulář - Hotovo
 **************
 Vojta
 # Animace – slide
@@ -16,3 +16,5 @@ Vojta
 # Animace – header
 
 **************************************************
+Obecně
+# Finální optimalizace
