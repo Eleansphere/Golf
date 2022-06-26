@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
-    <link rel="stylesheet" href="styles4.css">
+    <link rel="stylesheet" href="styles6.css">
 </head>
 
 
@@ -31,13 +31,9 @@
 
     <?php include("parts/contact.php") ?>
     <footer>
-<<<<<<< HEAD
-        Tento web vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
-=======
         Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
         <button class="footer-scroll-btn"><img src="pictures/back_to_top.svg" alt=""></button>
         <!-- vyrobím nějakou ikonu, text je jen dočasný --> 
->>>>>>> 4a79d90a2d9f0cb51c08f035ebf1b0d2270a4ab5
     </footer>
 </body>
 <script>
@@ -45,11 +41,11 @@
 
     function moveRowRight() {
         var el = document.getElementById("gallery-panel");
-        el.scrollLeft += 500;
+        el.scrollLeft += 200;
     }
     function moveRowLeft() {
         var el = document.getElementById("gallery-panel");
-        el.scrollLeft -= 500;
+        el.scrollLeft -= 200;
     }
 
     //*************************Tlačítko back to top******************************
