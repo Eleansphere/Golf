@@ -1,3 +1,13 @@
+<div class="part-title">
+        <div class="left-flex-center">
+            INVESTICE
+        </div>
+        <div class="left-flex-center">
+            <div class="part-ttile-line">
+
+            </div>
+        </div>
+    </div>
 <div class="video-2-filter">
     <div class="all-flex-center">
         <div class="investice-article all-flex-center">

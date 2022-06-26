@@ -16,19 +16,7 @@
     <?php include("parts/services.php") ?>
     <?php include("parts/galleryPanel.php") ?>
     <?php include("parts/clients.php") ?>
-
-    <div class="part-title">
-        <div class="left-flex-center">
-            INVESTICE
-        </div>
-        <div class="left-flex-center">
-            <div class="part-ttile-line">
-
-            </div>
-        </div>
-    </div>
     <?php include("parts/investice.php") ?>
-
     <?php include("parts/contact.php") ?>
     <footer>
         Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022

@@ -768,13 +768,13 @@ textarea {
   }
 
   .clients-client-right {
-    width: 95%;
+    width: 97%;
     height: 180px;
     grid-template-columns: 170px auto;
   }
 
   .clients-client {
-    width: 95%;
+    width: 97%;
     height: 180px;
     grid-template-columns: auto 170px;
   }
