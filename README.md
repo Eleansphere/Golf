@@ -6,9 +6,9 @@ Dodělat
 ***************
 Kuba
 # Responzivita
-# Investice
+# Investice - hotovo
 # Footer - Hotovo
-# Formulář
+# Formulář - hotovo
 **************
 Vojta
 # Animace – slide
