@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0px;
   font-family: calibri;
@@ -475,6 +478,7 @@ textarea{
   height: 200px;
 }
 
+<<<<<<< HEAD
 .investice-article{
   width: 100%;
   height: 100%;
@@ -488,4 +492,37 @@ textarea{
 }
 .investice-article p{
   text-align: center;
+=======
+.footer-scroll-btn{
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 80px;
+  padding: 1rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all .5s ease;
+}
+.footer-scroll-btn img{
+  width: 100%;
+}
+
+.footer-show-btn {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.footer-show-btn:hover{
+  width: 90px;
+  padding: 1.1rem;
+  font-size: 1.5rem;
+  transition: .2s ease;
+>>>>>>> 4a79d90a2d9f0cb51c08f035ebf1b0d2270a4ab5
 }

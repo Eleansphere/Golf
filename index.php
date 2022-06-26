@@ -31,10 +31,18 @@
 
     <?php include("parts/contact.php") ?>
     <footer>
+<<<<<<< HEAD
         Tento web vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
+=======
+        Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
+        <button class="footer-scroll-btn"><img src="pictures/back_to_top.svg" alt=""></button>
+        <!-- vyrobím nějakou ikonu, text je jen dočasný --> 
+>>>>>>> 4a79d90a2d9f0cb51c08f035ebf1b0d2270a4ab5
     </footer>
 </body>
 <script>
+    //***********************Galerie slide**************************************
+
     function moveRowRight() {
         var el = document.getElementById("gallery-panel");
         el.scrollLeft += 500;
@@ -43,6 +51,39 @@
         var el = document.getElementById("gallery-panel");
         el.scrollLeft -= 500;
     }
-</script>
 
+    //*************************Tlačítko back to top******************************
+
+    let scrollBtn = document.querySelector(".footer-scroll-btn");
+    let rootElement = document.documentElement;
+
+     // point určuje startovní pozici btn (vybrané div co se zobrazí na obrazovce)
+    let point = document.querySelector(".video-2-filter");
+   
+     //funkce => scroll k root elementu (to je <html>)
+    scroll = () =>{
+        rootElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+    
+    //kontrola kdy teda začít zobrazovat btn, využívá Intersection Observer
+    function navrat(vstupy){
+    vstupy.forEach((entry) => {
+        if(entry.isIntersecting){
+            scrollBtn.classList.add("footer-show-btn");
+        }
+        else{
+            scrollBtn.classList.remove("footer-show-btn");
+        }
+    });
+}
+
+    //samotné spuštění po kliku -> hlídá EventListener
+    scrollBtn.addEventListener("click", scroll);
+    let observer = new IntersectionObserver(navrat);
+    observer.observe(point);
+
+</script>
 </html>
