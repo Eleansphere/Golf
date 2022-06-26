@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="left-flex-center article-title-bg">
-                ORGANIZAČNÍ ZAJIŠTĚNÍÚČASTI NA TURNAJÍCH
+                ORGANIZAČNÍ ZAJIŠTĚNÍ ÚČASTI NA TURNAJÍCH
             </div>
         </div>
         <div class="article-text">

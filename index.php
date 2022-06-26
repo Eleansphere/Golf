@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLASHNEWS</title>
+    <title>Filip Sport Management</title>
     <link rel="stylesheet" href="styles4.css">
 </head>
 
@@ -31,7 +31,7 @@
 
     <?php include("parts/contact.php") ?>
     <footer>
-        Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
+        Tento web vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
     </footer>
 </body>
 <script>

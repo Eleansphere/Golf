@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="all-flex-center">
-        <img class="menu-item-logo" src="pictures/filip_sport.svg">
+        <img class="menu-item-logo" src="pictures/filip_sport2.svg">
     </div>
     <div class="all-flex-center">
         <div class="menu-item">

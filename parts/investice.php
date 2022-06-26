@@ -1,11 +1,27 @@
 <div class="video-2-filter">
-    <div class="slideshow-large-text">
+    <div class="all-flex-center">
+        <div class="investice-article all-flex-center">
+           <p> V případě, že máte zájem investovat
+            do profesionálního sportu a
+            zhodnotit své prostředky ve stále
+            dynamicky se rozvíjejícím
+            ekonomickém prostředí. Pak nás
+            prosím kontaktujte pro dohodnutí
+            schůzky, na které vám představíme
+            možnosti.</p>
+        </div>
+
+    </div>
+    <div class="all-flex-center">
         <form>
             <input type="text" placeholder="Jméno">
             <input type="email" placeholder="E-mail">
-            <textarea  rows="8" cols="1" placeholder="Zpráva"></textarea>
+            <textarea rows="8" cols="1" placeholder="Zpráva"></textarea>
         </form>
+
     </div>
+
+
 </div>
 
 <video playsinline autoplay muted loop>

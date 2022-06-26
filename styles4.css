@@ -16,7 +16,7 @@ body {
 
 .menu {
   width: 100%;
-  height: 150px;
+  height: 120px;
   position: fixed;
   top: 0;
   left: 0;
@@ -97,9 +97,9 @@ video {
 .video-filter {
   position: absolute;
   width: 100%;
-  height: 550px;
+  height: 580px;
   left: 0;
-  top: 150px;
+  top: 120px;
   z-index: 1;
   background: rgba(0, 0, 0, 0.3);
   display: flex;
@@ -113,8 +113,8 @@ video {
   left: 0;
   z-index: 1;
   background: rgba(0, 0, 0, 0.3);
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 
@@ -147,7 +147,7 @@ video {
   color: rgb(0, 0, 0);
   background: white;
   width: 100%;
-  height: 70px;
+  height: auto;
   padding-left: 10px;
   margin-left: -150px;
   border-radius: 100px;
@@ -473,4 +473,19 @@ input[type="text"], input[type="email"], textarea{
 textarea{
   padding-top: 20px;
   height: 200px;
+}
+
+.investice-article{
+  width: 100%;
+  height: 100%;
+  color:  rgba(0, 0, 0, 0.707);
+  font-size: 20px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.889);
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+.investice-article p{
+  text-align: center;
 }
