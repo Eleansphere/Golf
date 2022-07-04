@@ -37,48 +37,6 @@
                 </div>
             </div>
             <div class="left-flex-center article-title-bg">
-                KARIÉRNÍ PLÁNOVÁNÍ
-            </div>
-        </div>
-        <div class="article-text">
-            Pomůžeme Vám najít optimální
-            cestu k dosažení Vašeho
-            profesionálního sportovního cíle.
-            Pomůžeme Vám stanovovat
-            průběžné cíle, sledovat je,
-            podrobně vyhodnocovat,
-
-        </div>
-
-    </div>
-    <div class="article">
-        <div class="article-title">
-            <div class="all-flex-center">
-                <div class="lines">
-                    <div class="all-flex-center">
-
-                        <div class="lines-line">
-
-                        </div>
-                    </div>
-
-                    <div class="all-flex-center">
-
-                        <div class="lines-line-long">
-
-                        </div>
-                    </div>
-
-                    <div class="all-flex-center">
-
-                        <div class="lines-line">
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="left-flex-center article-title-bg">
                 PLÁNOVÁNÍ A ORGANIZAČNÍ ZAJIŠTĚNÍ
             </div>
         </div>
@@ -124,7 +82,49 @@
                 </div>
             </div>
             <div class="left-flex-center article-title-bg">
-                ORGANIZAČNÍ ZAJIŠTĚNÍÚČASTI NA TURNAJÍCH
+                KARIÉRNÍ PLÁNOVÁNÍ
+            </div>
+        </div>
+        <div class="article-text">
+            Pomůžeme Vám najít optimální
+            cestu k dosažení Vašeho
+            profesionálního sportovního cíle.
+            Pomůžeme Vám stanovovat
+            průběžné cíle, sledovat je,
+            podrobně vyhodnocovat,
+
+        </div>
+
+    </div>
+    <div class="article">
+        <div class="article-title">
+            <div class="all-flex-center">
+                <div class="lines">
+                    <div class="all-flex-center">
+
+                        <div class="lines-line">
+
+                        </div>
+                    </div>
+
+                    <div class="all-flex-center">
+
+                        <div class="lines-line-long">
+
+                        </div>
+                    </div>
+
+                    <div class="all-flex-center">
+
+                        <div class="lines-line">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="left-flex-center article-title-bg">
+                ORGANIZAČNÍ ZAJIŠTĚNÍ ÚČASTI NA TURNAJÍCH
             </div>
         </div>
         <div class="article-text">
