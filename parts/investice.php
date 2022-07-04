@@ -23,11 +23,11 @@
 
     </div>
     <div class="all-flex-center">
-        <form>
-            <input type="text" placeholder="Jméno">
-            <input type="email" placeholder="E-mail">
-            <textarea rows="8" cols="1" placeholder="Zpráva"></textarea>
-            <button type="submit">Odeslat</button>
+        <form action="investice.php" method="post">
+            <input type="text" name="jmeno" placeholder="Jméno">
+            <input type="email" name="odesilatel" placeholder="E-mail">
+            <textarea rows="8" name="text" cols="1" placeholder="Zpráva"></textarea>
+            <button type="submit" name="submit">Odeslat</button>
         </form>
 
     </div>
