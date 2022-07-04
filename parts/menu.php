@@ -2,7 +2,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-                SLUŽBY
+                <a href="#services" class="active">SLUŽBY</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -14,7 +14,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-                KLIENTI
+            <a href="#clients">KLIENTI</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -29,7 +29,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-                INVESTICE
+            <a href="#investice">INVESTICE</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -41,7 +41,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-                KONTAKT
+            <a href="#contact">KONTAKT</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
