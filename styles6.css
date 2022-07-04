@@ -608,7 +608,7 @@ textarea {
   cursor: pointer;
   font-size: 1.4rem;
   font-weight: bold;
-  width: 80px;
+  width: 3rem;
   padding: 1rem;
   border-radius: 50%;
   position: fixed;
@@ -621,7 +621,7 @@ textarea {
 }
 
 .footer-scroll-btn img {
-  width: 100%;
+ width: 100%;
 }
 
 .footer-show-btn {
