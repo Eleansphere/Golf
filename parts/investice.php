@@ -1,4 +1,4 @@
-<div class="part-title">
+<div class="part-title" id="investice">
         <div class="left-flex-center">
             INVESTICE
         </div>

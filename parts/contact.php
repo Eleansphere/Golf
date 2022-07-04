@@ -1,4 +1,4 @@
-<div class="part-title">
+<div class="part-title" id="contact">
     <div class="left-flex-center">
         KONTAKT
     </div>
