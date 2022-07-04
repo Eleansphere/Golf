@@ -112,10 +112,7 @@ body {
 .menu-item-logo {
   width: 220px;
 }
-.menu-item a{
-  text-decoration: none;
-  color: #000000;
-}
+
 
 @keyframes slideshowText {
   0% {
