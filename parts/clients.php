@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="clients">
-    <div class="clients-client slide-in">
+    <div class="slide-in clients-client">
         <div class="all-flex-center">
             <div class="clients-client-about">
                 <div class="clients-client-about-title">
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="clients-divide">
-        <div class="clients-client-right slide-in">
+        <div class="slide-in clients-client-right">
             <div class="all-flex-center">
 
                 <div class="clients-client-img">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <div class="clients-client slide-in">
+    <div class="slide-in clients-client">
         <div class="all-flex-center">
             <div class="clients-client-about">
                 <div class="clients-client-about-title">

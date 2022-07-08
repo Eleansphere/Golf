@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
-    <link rel="stylesheet" href="styles6.css">
+    <link rel="stylesheet" href="styles6.css" media="all">
 </head>
 
 
@@ -27,15 +27,18 @@
     </footer>
 </body>
 <script>
+    //*********************** Refresh on top************************************
+    history.scrollRestoration = 'manual';
+
     //***********************Galerie slide**************************************
 
     function moveRowRight() {
         var el = document.getElementById("gallery-panel");
-        el.scrollLeft += 200;
+        el.scrollLeft += 500;
     }
     function moveRowLeft() {
         var el = document.getElementById("gallery-panel");
-        el.scrollLeft -= 200;
+        el.scrollLeft -= 500;
     }
 
     //*************************Tlačítko back to top******************************
@@ -93,7 +96,7 @@ const sliders = document.querySelectorAll(".slide-in");
 
 const appearOptions = {
   threshold: 0,
-  rootMargin: "0px 0px -100px 0px"
+  rootMargin: "0px 0px -150px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function(
