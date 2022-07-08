@@ -6,7 +6,7 @@ body {
   margin: 0px;
   font-family: calibri;
   padding-bottom: 0px;
-  overflow-x: hidden;
+  
 }
 
 .left-flex-center {
@@ -465,7 +465,8 @@ video {
   border-bottom-left-radius: 250px;
   right: 0px;
   position: absolute;
-  transform: translateX(50%);
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
 }
 
 .clients-client, 
@@ -492,7 +493,8 @@ opacity: 1;
   grid-template-columns: auto 300px;
   border-top-right-radius: 250px;
   border-bottom-right-radius: 250px;
-  transform: translateX(-50%);
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
 }
 
 .clients-client-img {
