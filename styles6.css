@@ -465,6 +465,10 @@ video {
   right: 0px;
   position: absolute;
 }
+.clients-divide{
+  overflow: hidden;
+  position: relative;
+}
 
 .clients-client {
   width: 80%;

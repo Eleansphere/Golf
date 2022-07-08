@@ -86,5 +86,12 @@
     pozicePredScroll = poziceTedScroll;
 } 
 
+//***********************************Show clients******************************************
+
+let klientLeft = document.querySelectorAll(".clients-client");
+let klientRight = document.querySelectorAll(".clients-client-right");
+
+
+
 </script>
 </html>
