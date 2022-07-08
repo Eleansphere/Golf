@@ -11,15 +11,15 @@ Kuba
 # Formulář - Hotovo
 **************
 Vojta
-# Animace – slide
+# Animace – slide - Hotovo
 # Tlačítko back to top – Hotovo
-# Animace – header
+# Animace – header - Hotovo
 # Formulář (PHP)
 
 **************************************************
 Obecně
 # Finální optimalizace
-
+# Kontrola Expires headers, nastavit .htaccess (animace slide)
 **************************************************
 # Úpravy po schůzce
 1. Kontaktní formulář nebude sloužit jen pro investice – klient chce Investice úplně vypusit => plánuje do budoucna amostatnou webovku
