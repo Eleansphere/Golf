@@ -6,6 +6,7 @@ body {
   margin: 0px;
   font-family: calibri;
   padding-bottom: 0px;
+  overflow-x: hidden;
 }
 
 .left-flex-center {
@@ -464,10 +465,22 @@ video {
   border-bottom-left-radius: 250px;
   right: 0px;
   position: absolute;
+  transform: translateX(50%);
 }
-.clients-divide{
-  overflow: hidden;
-  position: relative;
+
+.clients-client, 
+.clients-client-right{
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.clients-client.appear,
+.clients-client-right.appear{
+transform: translateX(0);
+opacity: 1;
 }
 
 .clients-client {
@@ -479,6 +492,7 @@ video {
   grid-template-columns: auto 300px;
   border-top-right-radius: 250px;
   border-bottom-right-radius: 250px;
+  transform: translateX(-50%);
 }
 
 .clients-client-img {
