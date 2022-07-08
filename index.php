@@ -71,5 +71,20 @@
     let observer = new IntersectionObserver(navrat);
     observer.observe(point);
 
+    //******************************Hide nav*******************************************
+
+    let pozicePredScroll = window.pageYOffset;
+        window.onscroll = function() {
+    let poziceTedScroll = window.pageYOffset;
+        if (pozicePredScroll > poziceTedScroll) {
+            document.getElementById("nav-hide").style.top = "0";
+            document.getElementById("nav-hide").style.transition = "all 0.5s ease-in-out";
+        } else {
+            document.getElementById("nav-hide").style.top = "-120px";
+            document.getElementById("nav-hide").style.transition = "all 0.5s ease-in-out";
+        }
+    pozicePredScroll = poziceTedScroll;
+} 
+
 </script>
 </html>

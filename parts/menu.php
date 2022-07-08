@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" id="nav-hide">
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
