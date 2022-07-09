@@ -1,10 +1,19 @@
+@font-face {
+  font-family: 'areqo_4fultralight';
+  src: url('font/areqo4fultralight-webfont.woff2') format('woff2'),
+       url('font/areqo4fultralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0px;
-  font-family: calibri;
+  font-family: 'areqo_4fultralight', 'Cambria';
   padding-bottom: 0px;
   overflow-x: hidden;
 }
