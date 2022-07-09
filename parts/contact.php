@@ -17,7 +17,7 @@
                 </svg>
             </div>
             <div class="all-flex-center">
-                Novosadský Dvůr 4 779 00 Olomouc Česká Republika
+                Novosadský Dvůr 4, 779 00 Olomouc Česká Republika
             </div>
         </div>
     </div>
