@@ -23,7 +23,7 @@
 
     </div>
     <div class="all-flex-center">
-        <form action="investice.php" method="post">
+        <form action="parts/mailto.php" method="post">
             <input type="text" name="jmeno" placeholder="Jméno">
             <input type="email" name="odesilatel" placeholder="E-mail">
             <textarea rows="8" name="text" cols="1" placeholder="Zpráva"></textarea>

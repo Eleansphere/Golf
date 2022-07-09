@@ -1,40 +1,52 @@
 <?php  
- 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+
 if(isset($_POST['submit'])) {
- $mailto = "aionacountsm@gmail.com";  //My email address
- //getting customer data
- $name = $_POST['jmeno']; //getting customer name
- $fromEmail = $_POST['odesilatel']; //getting customer email
- $subject = $_POST['text']; //getting subject line from client
- $subject2 = "Confirmation: Message was submitted successfully | HMA WebDesign"; // For customer confirmation
- 
- //Email body I will receive
- $message = "Cleint Name: " . $name . "\n"
- . "Client Message: " . "\n" . $_POST['message'];
- 
- //Message for client confirmation
- $message2 = "Dear" . $name . "\n"
- . "Thank you for contacting us. We will get back to you shortly!" . "\n\n"
- . "You submitted the following message: " . "\n" . $_POST['message'] . "\n\n"
- . "Regards," . "\n" . "- HMA WebDesign";
- 
- //Email headers
- $headers = "From: " . $fromEmail; // Client email, I will receive
- $headers2 = "From: " . $mailto; // This will receive client
- 
- //PHP mailer function
- 
-  $result1 = mail($mailto, $subject, $message, $headers); // This email sent to My address
-  $result2 = mail($fromEmail, $subject2, $message2, $headers2); //This confirmation email to client
- 
-  //Checking if Mails sent successfully
- 
-  if ($result1 && $result2) {
-    $success = "Your Message was sent Successfully!";
-  } else {
-    $failed = "Sorry! Message was not sent, Try again Later.";
+   $name = $_POST['jmeno']; //getting customer name
+   $fromEmail = $_POST['odesilatel']; //getting customer email
+   $subject = $_POST['text']; //getting subject line from client
+   $subject2 = "Confirmation: Message was submitted successfully | HMA WebDesign"; // For customer confirmation
   }
- 
+  
+
+try {
+    //Server settings
+    $mail->SMTPDebug = 2;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'aionacountsm@gmail.com';                     //SMTP username
+    $mail->Password   = 'nrmiivfdusjibouu';                               //SMTP password
+    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    //Recipients
+    $mail->setFrom('aionacountsm@gmail.com', 'Vojta');
+
+    $mail->addAddress($fromEmail, $name);     //Add a recipient
+  
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Here is the subject from' . $name;
+    $mail->Body    = $subject;
+
+    $mail->send();
+    echo 'Message has been sent';
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+
  
 ?>

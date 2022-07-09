@@ -18,7 +18,6 @@
     <?php include("parts/clients.php") ?>
     <?php include("parts/investice.php") ?>
     <?php include("parts/contact.php") ?>
-    <?php include("parts/mailto.php") ?>
     
     <footer>
         Vytvořil <p classs="footer-strong-text">Jakub Šťastný a Vojtěch Franek</p> &copy;2022
