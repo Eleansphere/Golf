@@ -15,7 +15,7 @@ Vojta
 # Tlačítko back to top – Hotovo
 # Animace – header - Hotovo
 # Font zadavatele - Hotovo
-# Formulář (PHP)
+# Formulář (PHP) - Hotovo
 
 **************************************************
 Obecně
