@@ -590,8 +590,18 @@ footer p {
 form {
   display: grid;
   grid-template-rows: auto;
-  grid-row-gap: 20px;
+  grid-row-gap: 15px;
   height: auto;
+}
+label#jmeno-error.error, label#odesilatel-error.error, label#text-error.error{
+  display: block;
+  font-family: Calibri;
+  color: white;
+  font-size: 1rem;
+  padding: 0.4rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
 }
 
 input[type="text"], input[type="email"], textarea {

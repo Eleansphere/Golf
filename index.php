@@ -6,6 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
     <link rel="stylesheet" href="styles6.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script>
+        $().ready(function () {
+ 
+ $("#kontakt").validate({
+     rules: {
+         jmeno: "required",
+         odesilatel: "required",
+         jmeno: {
+             required: true,
+             minlength: 3
+         },
+         odesilatel: {
+             required: true,
+             minlength: 5
+         },
+         text: {
+             required: true,
+             minlength: 10
+         }
+     },
+     // zprávy
+     messages: {
+         jmeno: " Prosím zadejte své celé jméno",
+         odesilatel: "Prosím, zadejte platnou emailovou adresu",
+         jmeno: {
+             required: " Prosím zadejte své celé jméno",
+             minlength: " Vaše jméno musí obsahovat minimálně 3 znaky"
+         },
+         text: {
+             required: " Prosím zadejte Vaši zprávu",
+             minlength: " Vaše zpráva musí obsahovat minimálně 10 znaků"
+         }
+     }
+ });
+});
+    </script>
 </head>
 
 
@@ -25,7 +64,9 @@
         <!-- vyrobím nějakou ikonu, text je jen dočasný --> 
     </footer>
 </body>
+
 <script>
+
     //*********************** Refresh on top************************************
     history.scrollRestoration = 'manual';
 
