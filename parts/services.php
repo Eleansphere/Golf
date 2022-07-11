@@ -1,4 +1,4 @@
-<div class="part-title">
+<div class="part-title" id="services">
     <div class="left-flex-center">
         SLUŽBY
     </div>
