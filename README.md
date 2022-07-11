@@ -16,7 +16,9 @@ Vojta
 # Animace – header - Hotovo
 # Font zadavatele - Hotovo
 # Formulář (PHP) - Hotovo
-
+# Odkazy navigace na responzivni verzi
+# Upravit font zadavatele
+# Formulář bezpečnost
 **************************************************
 Obecně
 # Finální optimalizace
