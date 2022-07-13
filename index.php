@@ -5,10 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="styles7.css">
-=======
-    <link rel="stylesheet" href="styles6.css" media="all">
+    <link rel="stylesheet" href="styles8.css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
@@ -48,7 +45,6 @@
  });
 });
     </script>
->>>>>>> de64ff258edbe6a9dc9eb5aa3c9748bf28725583
 </head>
 
 
@@ -59,6 +55,7 @@
     <?php include("parts/services.php") ?>
     <?php include("parts/galleryPanel.php") ?>
     <?php include("parts/clients.php") ?>
+    <?php include("parts/oldClients.php") ?>
     <?php include("parts/investice.php") ?>
     <?php include("parts/contact.php") ?>
     
@@ -72,10 +69,8 @@
 <script>
 
     //*********************** Refresh on top************************************
-    history.scrollRestoration = 'manual';
-
+    //history.scrollRestoration = 'manual';
     //***********************Galerie slide**************************************
-
     function moveRowRight() {
         var el = document.getElementById("gallery-panel");
         el.scrollLeft += 500;
@@ -84,7 +79,16 @@
         var el = document.getElementById("gallery-panel");
         el.scrollLeft -= 500;
     }
+ //***********************Staří klienti slide**************************************
 
+ function moveRowRightOldClients() {
+        var el = document.getElementById("old-client-slide");
+        el.scrollLeft += 500;
+    }
+    function moveRowLeftOldClients() {
+        var el = document.getElementById("old-client-slide");
+        el.scrollLeft -= 500;
+    }
     //*************************Tlačítko back to top******************************
 
     let scrollBtn = document.querySelector(".footer-scroll-btn");
