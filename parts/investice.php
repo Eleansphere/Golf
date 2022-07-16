@@ -1,6 +1,6 @@
-<div class="part-title" id="investice">
+<div class="part-title" id="kontakt">
         <div class="left-flex-center">
-            INVESTICE
+            KONTAKT
         </div>
         <div class="left-flex-center">
             <div class="part-ttile-line">
@@ -11,14 +11,7 @@
 <div class="video-2-filter">
     <div class="all-flex-center">
         <div class="investice-article all-flex-center">
-           <p> V případě, že máte zájem investovat
-            do profesionálního sportu a
-            zhodnotit své prostředky ve stále
-            dynamicky se rozvíjejícím
-            ekonomickém prostředí. Pak nás
-            prosím kontaktujte pro dohodnutí
-            schůzky, na které vám představíme
-            možnosti.</p>
+           <p> Pokud máte jakékoliv dotazy, neváhejte nás kontaktovat. Můžete využít kontaktní formulář nebo telefoní číslo uvedené níže.</p>
         </div>
 
     </div>

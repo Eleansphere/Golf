@@ -1,4 +1,4 @@
-<div class="part-title">
+<div class="part-title" id="spoluprace">
     <div class="left-flex-center">
         SPOLUPRACOVALI JSME
     </div>

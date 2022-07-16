@@ -1,6 +1,6 @@
-<div class="part-title" id="contact">
+<div class="part-title">
     <div class="left-flex-center">
-        KONTAKT
+        
     </div>
     <div class="left-flex-center">
         <div class="part-ttile-line">
