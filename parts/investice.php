@@ -17,7 +17,7 @@
     </div>
     <div class="all-flex-center">
 
-        <form action="parts/mailto.php" method="post" id="kontakt">
+        <form action="parts/mailto.php" method="post" id="form-kontakt">
             <input type="text" name="jmeno" placeholder="Jméno" maxlength="255" required>
             <input type="email" name="odesilatel" placeholder="E-mail" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="255" validate>
             <textarea rows="8" name="text" cols="1" placeholder="Zpráva" maxlength="255" required></textarea>

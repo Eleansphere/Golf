@@ -1,18 +1,12 @@
-@font-face {
-  font-family: 'areqo_4fultralight';
-  src: url('font/Areqo4FUltraLight.woff2') format('woff2'),
-    url('font/Areqo4FUltraLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0px;
-  font-family: 'areqo_4fultralight', 'Calibri';
+  font-family: 'Nunito', sans-serif;
   padding-bottom: 0px;
   overflow-x: hidden;
 }
@@ -86,9 +80,8 @@ body {
 }
 
 .menu-item {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: black;
-  font-weight: 800;
   display: grid;
   grid-template-rows: 45px 5px;
 }
@@ -136,7 +129,7 @@ body {
 }
 
 .slideshow-large-text {
-  font-size: 90px;
+  font-size: 3.4rem;
   font-weight: 900;
   color: white;
   padding-left: 50px;
@@ -218,8 +211,7 @@ video {
 }
 
 .article-title-bg {
-  font-size: 2.2rem;
-  font-weight: 400;
+  font-size: 1.6rem;
   color: rgb(0, 0, 0);
   background: white;
   width: 100%;
@@ -231,9 +223,8 @@ video {
 }
 
 .article-text {
-  font-family: Calibri;
-  font-size: 20px;
-  font-weight: 400;
+  font-family: 'Spectral', serif;
+  font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.707);
   width: 80%;
 
@@ -259,7 +250,7 @@ video {
 }
 
 .part-title {
-  font-size: 45px;
+  font-size: 2.6rem;
   font-weight: 800;
   color: rgb(0, 0, 0);
   width: auto;
@@ -395,7 +386,8 @@ video {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.904);
-  font-size: 20px;
+  font-family: 'Spectral',serif;
+  font-size: 1.6rem;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
@@ -506,25 +498,26 @@ video {
 .clients-client-about {
   display: grid;
   grid-template-rows: repeat(4, auto);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   color: white;
 }
 
 .clients-client-about-title {
-  font-size: 30px;
+  font-size: 2.2rem;
   font-weight: 800;
   color: white;
 }
 
 .clients-client-about-subtitle {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 800;
   color: white;
 }
 
 .clients-client-about-text {
-  font-size: 20px;
+  font-family: 'Spectral', serif;
+  font-size: 1.2rem;
   font-weight: 400;
   color: white;
 }
@@ -630,14 +623,15 @@ video {
 }
 
 .old-clients-client-about-title {
-  font-size: 50px;
+  font-size: 1.8rem;
   font-weight: 800;
   color: white;
   transition: 2s;
 }
 
 .old-clients-client-about-subtitle {
-  font-size: 30px;
+  font-size: 1.4rem;
+  font-family: 'Spectral', serif;
   font-weight: 800;
   color: rgb(207, 207, 207);
   transition: 2s;
@@ -675,7 +669,7 @@ video {
 }
 
 footer {
-  font-family: Calibri;
+  font-family: 'Nunito', sans-serif;
   width: 100%;
   height: 150px;
   background: #0f1c4a;
@@ -699,13 +693,13 @@ footer p {
 form {
   display: grid;
   grid-template-rows: auto;
-  grid-row-gap: 15px;
+  grid-row-gap: 10px;
   height: auto;
 }
 
 label#jmeno-error.error, label#odesilatel-error.error, label#text-error.error {
   display: block;
-  font-family: Calibri;
+  font-family: 'Nunito', sans-serif;
   color: white;
   font-size: 1rem;
   padding: 0.4rem;
@@ -812,7 +806,7 @@ textarea {
   }
 
   .slideshow-large-text {
-    font-size: 40px;
+    font-size: 3.4rem;
     font-weight: 900;
     color: white;
     padding-left: 30px;
@@ -836,19 +830,18 @@ textarea {
   }
 
   .article-title {
-    font-size: 15px;
+    font-size: 1.6rem;
     height: 40px;
     width: auto;
   }
 
   .article-title-bg {
-    font-size: 20px;
+    font-size: 1.6rem;
     width: auto;
   }
 
   .article-text {
-    font-size: 20px;
-
+    font-size: 1.2rem;
     width: auto;
     text-align: justify;
 
@@ -869,7 +862,7 @@ textarea {
   }
 
   .part-title {
-    font-size: 30px;
+    font-size: 2.6rem;
     padding-left: 20px;
     margin-top: 40px;
   }
@@ -942,15 +935,18 @@ textarea {
   }
 
   .clients-client-about-title {
-    font-size: 20px;
+    font-size: 1.4rem;
   }
 
   .clients-client-about-subtitle {
-    font-size: 12px;
+    font-size: 0.8rem;
+    
   }
 
   .clients-client-about-text {
-    font-size: 12px;
+    font-size: 0.8rem;
+    
+    
   }
 
   .contact {
@@ -968,7 +964,7 @@ textarea {
     grid-template-rows: 80px auto;
     height: 170px;
     grid-template-columns: 1fr;
-    font-size: 15px;
+    font-size: 0.8rem;
     border-left: none;
     text-align: center;
 
@@ -981,12 +977,12 @@ textarea {
 
   footer {
     height: 100px;
-    font-size: 15px;
+    font-size: 0.8rem;
 
   }
 
   footer p {
-    font-size: 15px;
+    font-size: 0.8rem;
   }
 
 
@@ -996,7 +992,7 @@ textarea {
 
   .investice-article {
     background: rgba(255, 255, 255, 0.544);
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 
   .video-2-filter {
@@ -1065,11 +1061,11 @@ textarea {
   }
 
   .old-clients-client-about-title {
-    font-size: 25px;
+    font-size: 1rem;
   }
 
   .old-clients-client-about-subtitle {
-    font-size: 20px;
+    font-size: 0.8rem;
   }
 
   #oldClientsSlideRowRight {
