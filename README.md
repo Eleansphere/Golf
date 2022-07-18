@@ -9,6 +9,7 @@ Kuba
 # Investice - Hotovo
 # Footer - Hotovo
 # Formulář - Hotovo
+# Slide show pro sekci hned pod prvním videem(bude tam více textu)
 **************
 Vojta
 # Animace – slide - Hotovo
@@ -17,8 +18,8 @@ Vojta
 # Font zadavatele - Hotovo
 # Formulář (PHP) - Hotovo
 # Odkazy navigace na responzivni verzi - Hotovo
-# Upravit font zadavatele
-# Formulář bezpečnost
+# Upravit font zadavatele – Hotovo
+# Formulář bezpečnost – Hotovo
 **************************************************
 Obecně
 # Finální optimalizace
