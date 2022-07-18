@@ -196,7 +196,7 @@ video {
 .articles-about {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: auto;
+  width: 100%;
   padding: 80px;
 }
 
@@ -204,6 +204,8 @@ video {
   display: grid;
   grid-template-rows: 100px auto;
   grid-row-gap: 50px;
+  width: 100%;
+  margin: 0px auto;
 }
 
 .article-title {
@@ -281,6 +283,72 @@ video {
   height: 2px;
   background: black;
 }
+
+.services-slideshow-slide-content {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 20px;
+  animation: slideArticle 15s infinite;
+}
+
+@keyframes slideArticle {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  100% {
+      opacity: 0;
+    transform: translateX(50px);
+
+  }
+}
+
+.services-slideshow-dots {
+  width: 200px;
+  height: 100px;
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: repeat(3, 33%);
+}
+
+.services-slideshow-dots-dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: rgb(223, 223, 223);
+  margin-bottom: 50px;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px rgb(223, 223, 223);
+}
+.services-slideshow-dots-dot:hover{
+  transform: scale(1.1);
+  background: rgb(69, 69, 69);
+  cursor: pointer;
+
+
+}
+.services-slideshow {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  top: 10;
+  padding: 50px;
+}
+
+
+
 
 .services {
   display: grid;
@@ -833,6 +901,7 @@ textarea {
     border-bottom: 0.5px solid rgb(217, 217, 217);
     padding-bottom: 50px;
     padding-top: 70px;
+
   }
 
   .article-title {
@@ -873,6 +942,7 @@ textarea {
     padding-left: 20px;
     margin-top: 40px;
   }
+
 
   .services {
     grid-template-columns: 1fr;
@@ -1049,7 +1119,8 @@ textarea {
     padding-right: 40px;
     width: auto;
   }
-  .old-clients::-webkit-scrollbar-thumb{
+
+  .old-clients::-webkit-scrollbar-thumb {
     background: red !important;
   }
 
@@ -1080,5 +1151,19 @@ textarea {
     display: none;
   }
 
+
+  .services-slideshow-dots-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .services-slideshow {
+    width: auto;
+    height: 500px;
+    display: flex;
+    top: 10;
+    padding: 10px;
+  }
+  
 
 }
