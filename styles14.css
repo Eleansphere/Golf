@@ -332,7 +332,7 @@ video {
 }
 .services-slideshow {
   width: 100%;
-  height: 300px;
+  height: 00px;
   display: flex;
   top: 10;
   padding: 50px;
@@ -874,7 +874,7 @@ textarea {
   }
 
   .slideshow-large-text {
-    font-size: 3.4rem;
+    font-size: 2.7rem;
     font-weight: 900;
     color: white;
     padding-left: 30px;
@@ -905,7 +905,7 @@ textarea {
   }
 
   .article-title-bg {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     width: auto;
   }
 
@@ -931,7 +931,7 @@ textarea {
   }
 
   .part-title {
-    font-size: 2.6rem;
+    font-size: 2rem;
     padding-left: 20px;
     margin-top: 40px;
   }
@@ -1005,7 +1005,7 @@ textarea {
   }
 
   .clients-client-about-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .clients-client-about-subtitle {
@@ -1014,7 +1014,7 @@ textarea {
   }
 
   .clients-client-about-text {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     
     
   }
@@ -1128,15 +1128,15 @@ textarea {
   .old-clients-client-img {
     height: 130px;
     width: 130px;
-    grid-template-rows: auto 30px 30px auto;
+    grid-template-rows: auto 20px 20px auto;
   }
 
   .old-clients-client-about-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .old-clients-client-about-subtitle {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   #oldClientsSlideRowRight {
@@ -1155,7 +1155,7 @@ textarea {
   }
   .services-slideshow {
     width: auto;
-    height: 500px;
+    height: 600px;
     display: flex;
     top: 10;
     padding: 10px;
