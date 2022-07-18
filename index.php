@@ -12,7 +12,7 @@
     <script>
         $().ready(function () {
  
- $("#kontakt").validate({
+ $("#form-kontakt").validate({
      rules: {
          jmeno: "required",
          odesilatel: "required",

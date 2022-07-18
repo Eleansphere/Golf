@@ -1,6 +1,6 @@
-<div class="part-title" id="investice">
+<div class="part-title" id="kontakt">
         <div class="left-flex-center">
-            INVESTICE
+            KONTAKT
         </div>
         <div class="left-flex-center">
             <div class="part-ttile-line">
@@ -11,20 +11,13 @@
 <div class="video-2-filter">
     <div class="all-flex-center">
         <div class="investice-article all-flex-center">
-           <p> V případě, že máte zájem investovat
-            do profesionálního sportu a
-            zhodnotit své prostředky ve stále
-            dynamicky se rozvíjejícím
-            ekonomickém prostředí. Pak nás
-            prosím kontaktujte pro dohodnutí
-            schůzky, na které vám představíme
-            možnosti.</p>
+           <p> Pokud máte jakékoliv dotazy, neváhejte nás kontaktovat. Můžete využít kontaktní formulář nebo telefoní číslo uvedené níže.</p>
         </div>
 
     </div>
     <div class="all-flex-center">
 
-        <form action="parts/mailto.php" method="post" id="kontakt">
+        <form action="parts/mailto.php" method="post" id="form-kontakt">
             <input type="text" name="jmeno" placeholder="Jméno" maxlength="255" required>
             <input type="email" name="odesilatel" placeholder="E-mail" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="255" validate>
             <textarea rows="8" name="text" cols="1" placeholder="Zpráva" maxlength="255" required></textarea>

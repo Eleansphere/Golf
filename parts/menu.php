@@ -29,7 +29,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#investice" style="text-decoration:none; color:black;">INVESTICE</a>
+            <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI JSME</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -41,7 +41,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#contact" style="text-decoration:none; color:black;">KONTAKT</a>
+            <a href="#kontakt" style="text-decoration:none; color:black;">KONTAKT</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -51,7 +51,7 @@
         </div>
     </div>
 </div>
-<div class="mobile-menu">
+<div class="mobile-menu" id="nav-hide">
     <div class="left-flex-center">
         <img class="menu-item-logo" src="pictures/filip_sport2.svg">
     </div>
@@ -68,7 +68,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                    SLUŽBY
+                <a href="#services" style="text-decoration:none; color:black;">SLUŽBY</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -80,7 +80,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                    KLIENTI
+                <a href="#clients" style="text-decoration:none; color:black;">KLIENTI</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -92,7 +92,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                    INVESTICE
+                <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI JSME</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -104,7 +104,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                    KONTAKT
+                <a href="#kontakt" style="text-decoration:none; color:black;">KONTAKT</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
