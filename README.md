@@ -9,7 +9,7 @@ Kuba
 # Investice - Hotovo
 # Footer - Hotovo
 # Formulář - Hotovo
-# Slide show pro sekci hned pod prvním videem(bude tam více textu)
+# Slide show pro sekci hned pod prvním videem(bude tam více textu) - Hotovo
 **************
 Vojta
 # Animace – slide - Hotovo
