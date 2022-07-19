@@ -107,7 +107,6 @@
 
     function switchSlideArticle(switchNumber) {
         number = switchNumber;
-        clearTimeout(moveSlideArticle);
         document.getElementById("articleSlideTitle").innerHTML = titles[number];
         document.getElementById("articleSlideText").innerHTML = texts[number];
         for (let n = 0; n < 3; n++) {
