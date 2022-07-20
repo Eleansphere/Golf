@@ -717,7 +717,7 @@ video {
 .contact {
   display: grid;
   grid-template-columns: repeat(3, 33.333333333%);
-  height: 300px;
+  height: 400px;
   padding-left: 80px;
   padding-right: 80px;
 
@@ -735,7 +735,21 @@ video {
   width: 100px;
   color: #0f1c4a;
 }
+.contact-item-ico-linkedin {
+  width: 100px;
+  color: #0A66C2;
+}
+.contact-item-ico-twitter {
+  width: 100px;
+  color: #1DA1F2;
+}
+.contact-item-ico-ig {
+  width: 100px;
+  color: white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 40px;
 
+}
 footer {
   font-family: 'Nunito', sans-serif;
   width: 100%;
@@ -1022,9 +1036,9 @@ textarea {
   .contact {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 33%);
+    grid-template-rows: repeat(6, 33%);
     grid-row-gap: 10px;
-    height: auto;
+    height: 800px;
     width: auto;
     padding: 20px;
   }
