@@ -714,12 +714,25 @@ video {
   transform: scale(1.1);
 }
 
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 33.333333333%);
+  height: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 60%;
+  margin: 0px auto;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+
+
+}
+
 .contact {
   display: grid;
   grid-template-columns: repeat(3, 33.333333333%);
-  height: 400px;
-  padding-left: 80px;
-  padding-right: 80px;
+  height: 200px;
+  width: 100%;
+  margin: 0px auto;
 
 }
 
@@ -729,8 +742,22 @@ video {
   font-size: 25px;
   font-weight: 800;
   color: #0f1c4a;
-}
 
+}
+.social-item {
+  display: grid;
+  grid-template-columns: 50% auto;
+  font-size: 25px;
+  font-weight: 800;
+  color: #0f1c4a;
+  transition: 1s;
+  grid-column-gap: 20px;
+}
+.social-item:hover{
+  opacity: 1;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
 .contact-item-ico {
   width: 100px;
   color: #0f1c4a;
@@ -743,11 +770,28 @@ video {
   width: 100px;
   color: #1DA1F2;
 }
+
 .contact-item-ico-ig {
   width: 100px;
   color: white;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   border-radius: 40px;
+  padding: 0px;
+
+}
+.linkedin-text{
+  color: #0A66C2;
+  font-weight: 800;
+
+}
+.twitter-text{
+  color: #1DA1F2;
+  font-weight: 800;
+
+}
+.ig-text{
+  color: #fd5949;
+  font-weight: 800;
 
 }
 footer {
@@ -863,7 +907,7 @@ textarea {
   transition: .2s ease;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1320px) {
   .menu {
     display: none;
   }
@@ -1036,9 +1080,8 @@ textarea {
   .contact {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 33%);
     grid-row-gap: 10px;
-    height: 800px;
+    height: auto;
     width: auto;
     padding: 20px;
   }
@@ -1048,12 +1091,21 @@ textarea {
     grid-template-rows: 80px auto;
     height: 170px;
     grid-template-columns: 1fr;
-    font-size: 0.8rem;
+    font-size: 1rem;
     border-left: none;
     text-align: center;
 
   }
+  .social-item {
+    display: grid;
+    grid-template-rows: 80px auto;
+    height: 170px;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+    border-left: none;
+    text-align: center;
 
+  }
   .contact-item-ico {
     width: 80px;
     color: #0f1c4a;
@@ -1174,6 +1226,19 @@ textarea {
     top: 10;
     padding: 10px;
   }
+  .social{
+    padding: 10px;
+    width: 90%;
+  }
+  .contact-item-ico-linkedin {
+    width: 70px;
+  }
+  .contact-item-ico-twitter {
+    width: 70px;
+  }
+  .contact-item-ico-ig {
+    width: 70px;
   
+  }
 
 }
