@@ -717,7 +717,7 @@ video {
 .social {
   display: grid;
   grid-template-columns: repeat(3, 33.333333333%);
-  height: 200px;
+  height: 300px;
   padding-left: 80px;
   padding-right: 80px;
   width: 60%;
@@ -730,8 +730,8 @@ video {
 .contact {
   display: grid;
   grid-template-columns: repeat(3, 33.333333333%);
-  height: 200px;
-  width: 100%;
+  height: 300px;
+  width: 95%;
   margin: 0px auto;
 
 }
