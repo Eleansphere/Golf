@@ -12,6 +12,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script 
+        id="language_script"
+        data-debug="0" 
+        src="language/language.js">
+    </script>
     <script>
         $().ready(function () {
  
@@ -52,11 +57,6 @@
 
 
 <body>
-<script 
-        id="language_script"
-        data-debug="1" 
-        src="language/language.js">
-    </script>
     <?php include("parts/en/slidepanel-en.php") ?>
     <?php include("parts/en/menu-en.php") ?>
     <?php include("parts/en/articlesAbout-en.php") ?>
