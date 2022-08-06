@@ -7,16 +7,11 @@
     <title>Filip Sport Management</title>
     <link rel="stylesheet" href="styles17.css" media="all">
     <link rel="stylesheet" href="language/language.css">
-    <link rel="alternate" href="index-cs.php" hreflang="cs">
     <link rel="alternate" href="index-en.php" hreflang="en">
+    <link rel="alternate" href="index-cs.php" hreflang="cs">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
-    <script 
-        id="language_script"
-        data-debug="1" 
-        src="language/language.js">
-    </script>
     <script>
         $().ready(function () {
  
@@ -57,6 +52,11 @@
 
 
 <body>
+<script 
+        id="language_script"
+        data-debug="1" 
+        src="language/language.js">
+    </script>
     <?php include("parts/en/slidepanel-en.php") ?>
     <?php include("parts/en/menu-en.php") ?>
     <?php include("parts/en/articlesAbout-en.php") ?>
