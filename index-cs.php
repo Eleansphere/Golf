@@ -57,14 +57,14 @@
 
 
 <body>
-    <?php include("parts/slidepanel.php") ?>
+    <?php include("parts/slidepanel-cs.php") ?>
     <?php include("parts/menu-cs.php") ?>
-    <?php include("parts/articlesAbout.php") ?>
-    <?php include("parts/servicesSlideshow.php") ?>
+    <?php include("parts/articlesAbout-cs.php") ?>
+    <?php include("parts/servicesSlideshow-cs.php") ?>
     <?php include("parts/galleryPanel.php") ?>
-    <?php include("parts/clients.php") ?>
-    <?php include("parts/oldClients.php") ?>
-    <?php include("parts/investice.php") ?>
+    <?php include("parts/clients-cs.php") ?>
+    <?php include("parts/oldClients-cs.php") ?>
+    <?php include("parts/investice-cs.php") ?>
     <?php include("parts/contact.php") ?>
     
     <footer>

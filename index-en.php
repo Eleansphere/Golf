@@ -39,15 +39,15 @@
      },
      // zprávy
      messages: {
-         jmeno: " Prosím, zadejte své celé jméno.",
-         odesilatel: "Prosím, zadejte platnou emailovou adresu.",
+         jmeno: " Please, enter your full name.",
+         odesilatel: "Please, enter valid email address.",
          jmeno: {
-             required: " Prosím, zadejte své celé jméno.",
-             minlength: " Vaše jméno musí obsahovat minimálně 3 znaky."
+             required: " Please, enter your full name.",
+             minlength: " Your name must obtain at least three characters."
          },
          text: {
-             required: " Prosím, zadejte Vaši zprávu.",
-             minlength: " Vaše zpráva musí obsahovat minimálně 10 znaků."
+             required: " Please, enter your message.",
+             minlength: " Your message must obtain at least ten characters."
          }
      }
  });
@@ -57,14 +57,14 @@
 
 
 <body>
-    <?php include("parts/slidepanel.php") ?>
+    <?php include("parts/slidepanel-en.php") ?>
     <?php include("parts/menu-en.php") ?>
-    <?php include("parts/articlesAbout.php") ?>
-    <?php include("parts/servicesSlideshow.php") ?>
+    <?php include("parts/articlesAbout-en.php") ?>
+    <?php include("parts/servicesSlideshow-en.php") ?>
     <?php include("parts/galleryPanel.php") ?>
-    <?php include("parts/clients.php") ?>
-    <?php include("parts/oldClients.php") ?>
-    <?php include("parts/investice.php") ?>
+    <?php include("parts/clients-en.php") ?>
+    <?php include("parts/oldClients-en.php") ?>
+    <?php include("parts/investice-en.php") ?>
     <?php include("parts/contact.php") ?>
     
     <footer>

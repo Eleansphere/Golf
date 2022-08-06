@@ -29,7 +29,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#spoluprace" style="text-decoration:none; color:black;">COOPERATION</a>
+            <a href="#spoluprace" style="text-decoration:none; color:black;">COLLABORATION</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -41,7 +41,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#kontakt" style="text-decoration:none; color:black;">CONTACT</a>
+            <a href="#kontakt" style="text-decoration:none; color:black;">CONTACTS</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -100,7 +100,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#spoluprace" style="text-decoration:none; color:black;">COOPERATION</a>
+                <a href="#spoluprace" style="text-decoration:none; color:black;">COLLABORATION</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -112,7 +112,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#kontakt" style="text-decoration:none; color:black;">CONTACT</a>
+                <a href="#kontakt" style="text-decoration:none; color:black;">CONTACTS</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
