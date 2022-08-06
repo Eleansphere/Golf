@@ -29,7 +29,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI JSME</a>
+            <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -92,7 +92,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI JSME</a>
+                <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">

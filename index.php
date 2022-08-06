@@ -31,15 +31,15 @@
      },
      // zprávy
      messages: {
-         jmeno: " Prosím zadejte své celé jméno",
-         odesilatel: "Prosím, zadejte platnou emailovou adresu",
+         jmeno: " Prosím, zadejte své celé jméno.",
+         odesilatel: "Prosím, zadejte platnou emailovou adresu.",
          jmeno: {
-             required: " Prosím zadejte své celé jméno",
-             minlength: " Vaše jméno musí obsahovat minimálně 3 znaky"
+             required: " Prosím, zadejte své celé jméno.",
+             minlength: " Vaše jméno musí obsahovat minimálně 3 znaky."
          },
          text: {
-             required: " Prosím zadejte Vaši zprávu",
-             minlength: " Vaše zpráva musí obsahovat minimálně 10 znaků"
+             required: " Prosím, zadejte Vaši zprávu.",
+             minlength: " Vaše zpráva musí obsahovat minimálně 10 znaků."
          }
      }
  });

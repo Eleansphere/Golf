@@ -11,7 +11,7 @@
 <div class="video-2-filter">
     <div class="all-flex-center">
         <div class="investice-article all-flex-center">
-           <p> Pokud máte jakékoliv dotazy, neváhejte nás kontaktovat. Můžete využít kontaktní formulář nebo telefoní číslo uvedené níže.</p>
+           <p> Pokud máte jakýkoliv dotaz, neváhejte nás kontaktovat, prostřednictvím kontaktního formuláře.</p>
         </div>
 
     </div>

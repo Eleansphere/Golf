@@ -17,7 +17,7 @@
                 </svg>
             </div>
             <div class="all-flex-center">
-                info@filipsport-eu
+                info@filipsport.eu
             </div>
         </div>
     </div>
