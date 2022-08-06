@@ -24,7 +24,7 @@
 
 var languageSelector = {
     version: '1.4.1',
-    defaultLanguage: 'en', // Default language if no language available
+    defaultLanguage: 'cs', // Default language if no language available
     nameOfSelectorFrame: 'LANGUAGE', // Name of the language selector frame element
     idOfScript: 'language_script', // ID of the script element
     flagPath: 'flags/', // Where are the flag images as EN.png
