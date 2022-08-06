@@ -2,7 +2,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-                <a href="#services" style="text-decoration:none; color:black;">SLUŽBY</a>
+                <a href="#services" style="text-decoration:none; color:black;">SERVICES</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -14,7 +14,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#clients" style="text-decoration:none; color:black;">KLIENTI</a>
+            <a href="#clients" style="text-decoration:none; color:black;">CLIENTS</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -29,7 +29,7 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI</a>
+            <a href="#spoluprace" style="text-decoration:none; color:black;">COOPERATION</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
@@ -41,12 +41,20 @@
     <div class="all-flex-center">
         <div class="menu-item">
             <div class="all-flex-center">
-            <a href="#kontakt" style="text-decoration:none; color:black;">KONTAKT</a>
+            <a href="#kontakt" style="text-decoration:none; color:black;">CONTACT</a>
             </div>
             <div class="all-flex-center">
                 <div class="menu-item-line">
 
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-flex-center">
+        <div class="menu-item">
+            <div class="all-flex-center">
+            <language class="languageFrameClick" data-type="flag">
+	        </language>
             </div>
         </div>
     </div>
@@ -68,7 +76,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#services" style="text-decoration:none; color:black;">SLUŽBY</a>
+                <a href="#services" style="text-decoration:none; color:black;">SERVICES</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -80,7 +88,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#clients" style="text-decoration:none; color:black;">KLIENTI</a>
+                <a href="#clients" style="text-decoration:none; color:black;">CLIENTS</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -92,7 +100,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#spoluprace" style="text-decoration:none; color:black;">SPOLUPRACOVALI</a>
+                <a href="#spoluprace" style="text-decoration:none; color:black;">COOPERATION</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
@@ -104,7 +112,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#kontakt" style="text-decoration:none; color:black;">KONTAKT</a>
+                <a href="#kontakt" style="text-decoration:none; color:black;">CONTACT</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
