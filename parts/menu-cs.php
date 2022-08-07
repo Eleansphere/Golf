@@ -50,14 +50,10 @@
             </div>
         </div>
     </div>
-    <div class="all-flex-center">
-        <div class="menu-item">
-            <div class="all-flex-center">
+
             <language class="languageFrameClick" data-type="flag">
 	        </language>
-            </div>
-        </div>
-    </div>
+
 </div>
 <div class="mobile-menu" id="nav-hide">
     <div class="left-flex-center">
