@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
-    <link rel="stylesheet" href="styles17.css" media="all">
+    <link rel="stylesheet" href="styles20.css" media="all">
     <link rel="stylesheet" href="language/language.css">
     <link rel="alternate" href="index-en.php" hreflang="en">
     <link rel="alternate" href="index.php" hreflang="cs">

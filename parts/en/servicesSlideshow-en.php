@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="services-slideshow">
-    <div class="services-slideshow-slide-content" id="articleSlide">
+    <div class="services-slideshow-slide-conten all-flex-center" id="articleSlide">
         <div class="article">
             <div class="article-title">
                 <div class="all-flex-center">
@@ -66,42 +66,42 @@
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(3)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(3)" class="services-slideshow-dots-dot" id="slideDot3">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(4)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(4)" class="services-slideshow-dots-dot" id="slideDot4">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(5)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(5)" class="services-slideshow-dots-dot" id="slideDot5">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(6)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(6)" class="services-slideshow-dots-dot" id="slideDot6">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(7)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(7)" class="services-slideshow-dots-dot" id="slideDot7">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(8)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(8)" class="services-slideshow-dots-dot" id="slideDot8">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(9)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(9)" class="services-slideshow-dots-dot" id="slideDot9">
 
         </div>
     </div>
     <div class="all-flex-center">
-        <div onclick="switchSlideArticle(10)" class="services-slideshow-dots-dot" id="slideDot2">
+        <div onclick="switchSlideArticle(10)" class="services-slideshow-dots-dot" id="slideDot10">
 
         </div>
     </div>
@@ -161,7 +161,7 @@
         let slideDot = "slideDot" + number;
         document.getElementById("articleSlideTitle").innerHTML = titles[number];
         document.getElementById("articleSlideText").innerHTML = texts[number];
-        for (let n = 0; n < 10; n++) {
+        for (let n = 0; n <= 10; n++) {
             let slideDot0 = "slideDot" + n;
             if (number == n) {
                 document.getElementById(slideDot0).style.background = "#0f1c4a";
@@ -170,9 +170,11 @@
             }
         }
         number++;
-        if (number == 10) {
+        if (number == 11) {
             number = 0;
         }
+        console.log(number);
+
         setTimeout(moveSlideArticle, 15000);
 
     }
@@ -181,7 +183,7 @@
         number = switchNumber;
         document.getElementById("articleSlideTitle").innerHTML = titles[number];
         document.getElementById("articleSlideText").innerHTML = texts[number];
-        for (let n = 0; n < 10; n++) {
+        for (let n = 0; n <= 10; n++) {
             let slideDot0 = "slideDot" + n;
             if (number == n) {
                 document.getElementById(slideDot0).style.background = "#0f1c4a";
@@ -190,8 +192,9 @@
             }
         }
         number++;
-        if (number == 10) {
+        if (number == 11) {
             number = 0;
         }
+        console.log(number);
     }
 </script>
