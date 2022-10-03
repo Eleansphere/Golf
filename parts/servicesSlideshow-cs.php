@@ -108,50 +108,50 @@
 </div>
 
 <script>
-    const article1 = {
-        title: "PLÁNOVÁNÍ A ORGANIZAČNÍ ZAJIŠTĚNÍ",
-        text: "Naplánujeme a zorganizujeme Vaši tréninkovou přípravu se zaměřením na dosažení Vašeho cíle. Vyjednáme Vám nejlepší podmínky pro Váš trénink, abyste se mohli plně soustředit na kvalitní přípravu."
-    }
-    const article2 = {
-        title: "KARIÉRNÍ PLÁNOVÁNÍ",
-        text: "Pomůžeme Vám najít optimální cestu k dosažení Vašeho profesionálního sportovního cíle. Pomůžeme Vám stanovit průběžné cíle, sledovat je, vyhodnocovat a přizpůsobovat jim cestu k dosažení cíle."
-    }
-    const article3 = {
-        title: "ORGANIZAČNÍ ZAJIŠTĚNÍ ÚČASTI NA TURNAJÍCH",
-        text: "Kompletně organizačně zajistíme Vaši účast na turnajích a Vy se mohli soustředit na podání toho nejlepšího sportovního výkonu."
-    }
-    const article4 ={
-        title:"ZPROSTŘEDKOVÁNÍ SPONZORSKÝCH KONTRAKTŮ",
-        text:"Pomůžeme Vám s vytvořením projektu, který sponzorovi představí Vaši činnost, Vaše úspěchy a plány do budoucna. Součástí projektu je také návrh protiplnění sponzorům (něco zpět za poskytnutý sponzoring), rádi bychom totiž sponzora udrželi i pro další sezóny, proto se o něj musíme starat a něco mu nabídnout. Sponzor získá mediální a marketingovou propagaci, a další činnosti, které může za svůj sponzoring obdržet."
-    }
-    const article5 ={
-        title:"MEDIÁLNÍ PREZENTACE A PR",
-        text:"Vytváříme prostředí, pro co nejlepší prezentaci samotného sportovce, sestavujeme marketingové strategie, které pomáhají vytvářet zlepšení image sportovce a zvyšují povědomí o jeho činnosti. Motivujeme obchodní partnery a sponzory k přímému sponzoringu a navázání spolupráce s daným sportovcem. Nepřetržitě pracujeme s nástroji mediální propagace k maximální prezentaci sportovce."
-    }
-    const article6 ={
-        title:"ZAJIŠTĚNÍ ODBORNÝCH ZDRAVOTNÍCH SLUŽEB",
-        text:"Ve spolupráci s našimi spolupracujícími zařízeními Vám zajistíme nejlepší zdravotní a rehabilitační péči, při řešení jakéhokoliv zdravotního problému."
-    }
-    const article7 ={
-        title:"PORADENSTVÍ V OBLASTI SPORTOVNÍ VÝŽIVY A DOPLŇKŮ",
-        text:"Pomůžeme Vám se sestavením optimálního systému výživy, který podpoří Váš špičkový výkon. Doporučíme doplňky stravy pro maximální podporu Vašeho výkonu."
-    }
-    const article8 ={
-        title:"ZAJIŠTĚNÍ SPECIALISTŮ A SLUŽEB Z OBLASTI SPORTOVNÍ PSYCHOLOGIE",
-        text:"Zajistíme Vám kvalitní specialisty z oboru sportovní psychologie a mentální přípravy, kteří Vám pomohou maximálně využít Váš talentový potenciál a dosáhnout nejlepšího výkonu."
-    }
-    const article9 ={
-        title:"ZAJIŠTĚNÍ PRÁVNÍHO SERVISU PRO SPORTOVCE",
-        text:"Spolupracující právní kanceláře zaměřené na sportovní právo Vám zajistí poradenství a kontrolu smluv s partnery."
-    }
-    const article10 ={
-        title:"PORADENSTVÍ V OBLASTI SPORTOVNÍHO VYBAVENÍ",
-        text:"Poradíme, s jakým konkrétním sportovním výbavením dosáhnete nejlepšího výkonu."
-    }
-    const article11 ={
-        title:"FINANČNÍ, DAŇOVÉ A INVESTIČNÍ PORADENTSTVÍ",
-        text:""
-    }
+const article1 = {
+    title: "KARIÉRNÍ PLÁNOVÁNÍ",
+    text: "Pomůžeme Vám najít optimální cestu k dosažení Vašeho profesionálního sportovního cíle. Pomůžeme Vám stanovit průběžné cíle, sledovat je, vyhodnocovat a přizpůsobovat jim cestu k dosažení cíle."
+}
+const article2 = {
+    title: "PLÁNOVÁNÍ A ORGANIZAČNÍ ZAJIŠTĚNÍ TRÉNINKOVÉ PŘÍPRAVY",
+    text: "Naplánujeme a zorganizujeme Vaši tréninkovou přípravu se zaměřením na dosažení Vašeho cíle. Vyjednáme Vám nejlepší podmínky pro Váš trénink, abyste se mohli plně soustředit na kvalitní přípravu."
+}
+const article3 = {
+    title: "ORGANIZAČNÍ ZAJIŠTĚNÍ ÚČASTI NA TURNAJÍCH",
+    text: "Kompletně organizačně zajistíme Vaši účast na turnajích a Vy se můžete soustředit na podání toho nejlepšího sportovního výkonu."
+}
+const article4 ={
+    title:"PORADENSTVÍ V OBLASTI SPORTOVNÍ VÝŽIVY A DOPLŇKŮ",
+    text:"Pomůžeme Vám se sestavením optimálního programu výživy, který podpoří Váš špičkový výkon. Doporučíme Vám doplňky stravy pro optimalizaci Vašeho výkonu."
+}
+const article5 ={
+    title:"ZAJIŠTĚNÍ SPECIALISTŮ A SLUŽEB Z OBLASTI SPORTOVNÍ PSYCHOLOGIE",
+    text:"Zajistíme Vám kvalitní specialisty z oboru sportovní psychologie a mentální přípravy, kteří Vám pomohou maximálně využít Váš talentový potenciál a dosáhnout nejlepšího výkonu."
+}
+const article6 ={
+    title:"PORADENSTVÍ V OBLASTI SPORTOVNÍHO VYBAVENÍ",
+    text:"Poradíme, s jakým konkrétním sportovním výbavením dosáhnete nejlepšího výkonu."
+}
+const article7 ={
+    title:"ZAJIŠTĚNÍ ODBORNÝCH ZDRAVOTNÍCH SLUŽEB",
+    text:"Ve spolupráci s našimi spolupracujícími zařízeními Vám zajistíme nejlepší zdravotní a rehabilitační péči, při řešení jakéhokoliv zdravotního problému."
+}
+const article8 ={
+    title:"MEDIÁLNÍ PREZENTACE A PR",
+    text:"Vytváříme prostředí, pro co nejlepší prezentaci samotného sportovce, sestavujeme marketingové strategie, které pomáhají vytvářet zlepšení image sportovce a zvyšují povědomí o jeho činnosti. Motivujeme obchodní partnery a sponzory k přímému sponzoringu a navázání spolupráce s daným sportovcem. Nepřetržitě pracujeme s nástroji mediální propagace k maximální prezentaci sportovce."
+}
+const article9 ={
+    title:"ZPROSTŘEDKOVÁNÍ SPONZORSKÝCH KONTRAKTŮ",
+    text:"Pomůžeme Vám s vytvořením projektu, který sponzorovi představí Vaši činnost, Vaše úspěchy a plány do budoucna. Součástí projektu je také návrh protiplnění sponzorům (něco zpět za poskytnutý sponzoring), rádi bychom totiž sponzora udrželi i pro další sezóny, proto se o něj musíme starat a něco mu nabídnout. Sponzor získá mediální a marketingovou propagaci, a další činnosti, které může za svůj sponzoring obdržet."
+}
+const article10 ={
+    title:"ZAJIŠTĚNÍ PRÁVNÍHO SERVISU PRO SPORTOVCE",
+    text:"Spolupracující právní kanceláře zaměřené na sportovní právo Vám zajistí poradenství a kontrolu smluv s partnery."
+}
+const article11 ={
+    title:"FINANČNÍ, DAŇOVÉ A INVESTIČNÍ PORADENTSTVÍ",
+    text:""
+}
     const titles = [article1.title, article2.title, article3.title, article4.title, article5.title, article6.title, article7.title, article8.title, article9.title, article10.title, article11.title,];
     const texts = [article1.text, article2.text, article3.text, article4.text, article5.text, article6.text, article7.text, article8.text, article9.text, article10.text, article11.text,];
     var number = 0;
