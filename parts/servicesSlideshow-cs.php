@@ -110,11 +110,11 @@
 <script>
     const article1 = {
         title: "PLÁNOVÁNÍ A ORGANIZAČNÍ ZAJIŠTĚNÍ",
-        text: "Vytváříme prostředí a zázemí, ve kterém může každý sportovec uskutečňovat své sny a dosahovat svých cílů. Nabízíme nadstandartní služby, špičkový servis, individuální přístup, přátelské jednání a diskrétnost. Proto ke každému sportovci přistupujeme individuálně a s ojedinělým řešením, které vede k zajištění maximálního komfortu, vzájemné důvěře a spokojenosti sportovce."
+        text: "Naplánujeme a zorganizujeme Vaši tréninkovou přípravu se zaměřením na dosažení Vašeho cíle. Vyjednáme Vám nejlepší podmínky pro Váš trénink, abyste se mohli plně soustředit na kvalitní přípravu."
     }
     const article2 = {
         title: "KARIÉRNÍ PLÁNOVÁNÍ",
-        text: "Pomůžeme Vám najít optimální cestu k dosažení Vašeho profesionálního sportovního cíle. Pomůžeme Vám stanovovat průběžné cíle, sledovat je, podrobně vyhodnocovat."
+        text: "Pomůžeme Vám najít optimální cestu k dosažení Vašeho profesionálního sportovního cíle. Pomůžeme Vám stanovit průběžné cíle, sledovat je, vyhodnocovat a přizpůsobovat jim cestu k dosažení cíle."
     }
     const article3 = {
         title: "ORGANIZAČNÍ ZAJIŠTĚNÍ ÚČASTI NA TURNAJÍCH",
@@ -122,11 +122,11 @@
     }
     const article4 ={
         title:"ZPROSTŘEDKOVÁNÍ SPONZORSKÝCH KONTRAKTŮ",
-        text:"Pomůžeme Vám s vytvořením projektu, který sponzorovi představí Vaši činnost, Vaše úspěchy a plány do budoucna. Součástí projektu je také návrh protiplnění sponzorům (něco zpět za poskytnutý sponzoring). Rádi bychom totiž sponzora udrželi i pro další sezóny, proto se o něj musíme starat a něco mu nabídnout. Sponzor získá mediální a marketingovou propagaci a další činnosti, které může za svůj sponzoring obdržet."
+        text:"Pomůžeme Vám s vytvořením projektu, který sponzorovi představí Vaši činnost, Vaše úspěchy a plány do budoucna. Součástí projektu je také návrh protiplnění sponzorům (něco zpět za poskytnutý sponzoring), rádi bychom totiž sponzora udrželi i pro další sezóny, proto se o něj musíme starat a něco mu nabídnout. Sponzor získá mediální a marketingovou propagaci, a další činnosti, které může za svůj sponzoring obdržet."
     }
     const article5 ={
         title:"MEDIÁLNÍ PREZENTACE A PR",
-        text:"Vytváříme prostředí, pro co nejlepší prezentaci samotného sportovce. Sestavujeme marketingové strategie, které pomáhají vytvářet zlepšení image sportovce a zvyšují povědomí o jeho činnosti. Motivujeme obchodní partnery a sponzory k přímému sponzoringu a navázání spolupráce s daným sportovcem. Nepřetržitě pracujeme s nástroji mediální propagace k maximální prezentaci sportovce."
+        text:"Vytváříme prostředí, pro co nejlepší prezentaci samotného sportovce, sestavujeme marketingové strategie, které pomáhají vytvářet zlepšení image sportovce a zvyšují povědomí o jeho činnosti. Motivujeme obchodní partnery a sponzory k přímému sponzoringu a navázání spolupráce s daným sportovcem. Nepřetržitě pracujeme s nástroji mediální propagace k maximální prezentaci sportovce."
     }
     const article6 ={
         title:"ZAJIŠTĚNÍ ODBORNÝCH ZDRAVOTNÍCH SLUŽEB",
@@ -146,7 +146,7 @@
     }
     const article10 ={
         title:"PORADENSTVÍ V OBLASTI SPORTOVNÍHO VYBAVENÍ",
-        text:"Poradíme, jaká konkrétní sportovní výbava nejlepší podpoří Váš výkon."
+        text:"Poradíme, s jakým konkrétním sportovním výbavením dosáhnete nejlepšího výkonu."
     }
     const article11 ={
         title:"FINANČNÍ, DAŇOVÉ A INVESTIČNÍ PORADENTSTVÍ",

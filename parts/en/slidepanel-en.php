@@ -1,6 +1,6 @@
 <div class="video-filter">
     <div class="slideshow-large-text">
-        WE WILL HELP YOUR <p class="slideshow-title-text">CAREER</p> GROW!
+        HELPING RISING STARS TO REACH <p class="slideshow-title-text">THEIR</p> POTENCIAL!
     </div>
 </div>
 
