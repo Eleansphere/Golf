@@ -914,6 +914,8 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.contact-flex-address p{
   margin: 0;
 }
 
