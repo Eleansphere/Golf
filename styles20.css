@@ -909,7 +909,12 @@ textarea {
   font-size: 1.5rem;
   transition: .2s ease;
 }
-
+.contact-flex-address{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 @media only screen and (max-width: 1320px) {
