@@ -109,44 +109,44 @@
 
 <script>
     const article1 = {
-        title: "PLANNING AND ORGANIZATION OF TRAININGS",
-        text: "We will plan and organize your trainings focused on achieving your goals. We will negotiate the best conditions for your training so that you can fully concentrate on quality training."
-    }
-    const article2 = {
         title: "CAREER PLANNING",
         text: "We will help you find the best way to achieve your professional sporting goals. We will help you set the targets, track them, evaluate and adapt them to achieve the objective."
+    }
+    const article2 = {
+        title: "PLANNING AND ORGANIZATION OF TRAININGS",
+        text: "We will plan and organize your trainings focused on achieving your goals. We will negotiate the best conditions for your training so that you can fully concentrate on quality training."
     }
     const article3 = {
         title: "ORGANIZATION OF THE PARTICIPATION IN TOURNAMENTS",
         text: "We will organize completely your participation in tournaments so that you can concentrate on bringing the best sports performance."
     }
     const article4 ={
-        title:"ARRANGING SPONSORSHIP CONTRACTS",
-        text:"We will help you create a project that introduces your work, your accomplishments and future plans to sponsors. The project will also include proposal to sponsors (something back for provided sponsorship). We would like to keep the sponsor for next seasons, so we have to take care of him and offer him something. The sponsor will obtain media and marketing promotions and other activities that he may receive for his sponsorship."
-    }
-    const article5 ={
-        title:"MEDIA PRESENTATION AND PR",
-        text:"We create an environment for the best presentation of the sportsman. We use marketing strategies that help create improvement of the image of sportsman and raise awareness about his activities. We motivate business partners and sponsors to direct sponsorship and cooperation with the sportsman. Continually we are working with media publicity tools for maximum presentation of the sportsman."
-    }
-    const article6 ={
-        title:"ARRANGING PROFESSIONAL HEALTH SERVICES",
-        text:"Together with our cooperating partners we will provide the best medical and rehabilitative care when dealing with any health problem."
-    }
-    const article7 ={
         title:"CONSULTANCY IN THE FIELD OF SPORTS NUTRITION AND SUPPLEMENTS",
         text:"We will help you with establishing optimal nutrition system to maintain your peak performance. We will recommend supplements for maximum support of your performance."
     }
-    const article8 ={
+    const article5 ={
         title:"ARRANGING SPECIALISTS AND SERVICES IN THE FIELD OF SPORTS PSYCHOLOGY",
         text:"We will provide quality specialists in the field of sports psychology and mental training who will help you maximize your talent and potential to achieve the best performance."
     }
-    const article9 ={
-        title:"ARRANGING LEGAL SERVICES FOR SPORTSMAN",
-        text:"Cooperating law firms focused on sports law will provide advice and check contracts with partners."
-    }
-    const article10 ={
+    const article6 ={
         title:"CONSULTANCY IN THE FIELD OF SPORTS EQUIPMENT",
         text:"We will advise you specific sports equipment to help you to the best performance."
+    }
+    const article7 ={
+        title:"ARRANGING PROFESSIONAL HEALTH SERVICES",
+        text:"Together with our cooperating partners we will provide the best medical and rehabilitative care when dealing with any health problem."
+    }
+    const article8 ={
+        title:"MEDIA PRESENTATION AND PR",
+        text:"We create an environment for the best presentation of the sportsman. We use marketing strategies that help create improvement of the image of sportsman and raise awareness about his activities. We motivate business partners and sponsors to direct sponsorship and cooperation with the sportsman. Continually we are working with media publicity tools for maximum presentation of the sportsman."
+    }
+    const article9 ={
+        title:"ARRANGING SPONSORSHIP CONTRACTS",
+        text:"We will help you create a project that introduces your work, your accomplishments and future plans to sponsors. The project will also include proposal to sponsors (something back for provided sponsorship). We would like to keep the sponsor for next seasons, so we have to take care of him and offer him something. The sponsor will obtain media and marketing promotions and other activities that he may receive for his sponsorship."
+    }
+    const article10 ={
+        title:"ARRANGING LEGAL SERVICES FOR SPORTSMAN",
+        text:"Cooperating law firms focused on sports law will provide advice and check contracts with partners."
     }
     const article11 ={
         title:"FINANCIAL, TAXT AND INVESTMENT CONSULTANCY",
