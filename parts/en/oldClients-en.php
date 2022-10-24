@@ -1,6 +1,6 @@
 <div class="part-title" id="spoluprace">
     <div class="left-flex-center">
-        COLLABORATION
+            COOPERATED WITH
     </div>
     <div class="left-flex-center">
         <div class="part-ttile-line">

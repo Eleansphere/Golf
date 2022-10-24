@@ -100,7 +100,7 @@
         <div class="all-flex-center">
             <div class="menu-item">
                 <div class="all-flex-center">
-                <a href="#spoluprace" style="text-decoration:none; color:black;">COLLABORATION</a>
+                <a href="#spoluprace" style="text-decoration:none; color:black;">COOPERATED WITH</a>
                 </div>
                 <div class="all-flex-center">
                     <div class="menu-item-line">
