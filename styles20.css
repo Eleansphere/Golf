@@ -563,6 +563,9 @@ video {
   box-shadow: 0px 0px 30px black;
 
 }
+.clients-client-img:nth-child(1){
+  background: url("pictures/img01.jpg");
+}
 
 .clients-client-about {
   display: grid;
