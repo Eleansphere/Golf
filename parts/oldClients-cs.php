@@ -37,7 +37,7 @@
                     Adam Schejbal
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    Juniorský brankář HC Olomouc
+                    Juniorský  hokejový brankář
                 </div>
                 <div>
 
