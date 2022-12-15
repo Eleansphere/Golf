@@ -29,7 +29,7 @@
     </div>
     <div class="all-flex-center">
         <div class="old-clients-client all-flex-center">
-            <div class="old-clients-client-img old-clients-client-img-schejba">
+            <div class="old-clients-client-img old-clients-client-img-schejbal">
                 <div>
 
                 </div>
