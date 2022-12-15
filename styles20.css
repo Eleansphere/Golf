@@ -563,10 +563,6 @@ video {
   box-shadow: 0px 0px 30px black;
 
 }
-.clients-client-img:nth-child(1){
-  background: url("pictures/img01.jpg");
-}
-
 .clients-client-about {
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -668,6 +664,9 @@ video {
   margin: 0px auto;
   transition: 0.8s;
 
+}
+.old-clients-client> .old-clients-client-img:first-child(1){
+  background: url("pictures/profile_mruzek.jpg");
 }
 
 .old-clients-client-img {
