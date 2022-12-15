@@ -16,10 +16,10 @@
 
                 </div>
                 <div class="old-clients-client-about-title all-flex-center">
-                    JOHN KEBAB
+                    Filip Mrůzek
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    2019 - 2022
+                    Professional golf player
                 </div>
                 <div>
 
@@ -34,10 +34,10 @@
 
                 </div>
                 <div class="old-clients-client-about-title all-flex-center">
-                    JOHN KEBAB
+                    Adam Schejbal
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    2019 - 2022
+                    Junior hockey goalkeeper of HC Olomouc
                 </div>
                 <div>
 
@@ -52,10 +52,10 @@
 
                 </div>
                 <div class="old-clients-client-about-title all-flex-center">
-                    JOHN KEBAB
+                    Martin Příhoda
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    2019 - 2022
+                    Professional golf player
                 </div>
                 <div>
 
@@ -70,10 +70,10 @@
 
                 </div>
                 <div class="old-clients-client-about-title all-flex-center">
-                    JOHN KEBAB
+                    Jakub Bareš
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    2019 - 2022
+                    Professional golf player
                 </div>
                 <div>
 
