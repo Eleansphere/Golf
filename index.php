@@ -7,7 +7,7 @@
     <title>Filip Sport Management</title>
     <link rel="stylesheet" href="styles20.css" media="all">
     <link rel="stylesheet" href="language/language.css">
-    <link rel="alternate" href="index-cs.php" hreflang="cs">
+    <link rel="alternate" href="index.php" hreflang="cs">
     <link rel="alternate" href="index-en.php" hreflang="en">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
@@ -66,7 +66,7 @@
         <language class="languageFrameClick" data-type="flag">
         </language>
     <footer>
-        Vytvořil <p classs="footer-strong-text"> Jakub Šťastný a Vojtěch Franek</p> &copy;2022
+        Vytvořil: <p classs="footer-strong-text"> Jakub Šťastný a Vojtěch Franek</p> &copy;2022
         <button class="footer-scroll-btn"><img src="pictures/back_to_top.svg" alt=""></button>
         <!-- vyrobím nějakou ikonu, text je jen dočasný -->
     </footer>
