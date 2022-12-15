@@ -665,7 +665,7 @@ video {
   transition: 0.8s;
 
 }
-.old-clients-client> .old-clients-client-img:first-child(1){
+.old-clients-client-img:first-child(1){
   background: url("pictures/profile_mruzek.jpg");
 }
 
