@@ -37,7 +37,7 @@
                     Adam Schejbal
                 </div>
                 <div class="old-clients-client-about-subtitle all-flex-center">
-                    Junior hockey goalkeeper of HC Olomouc
+                    Junior goalkeeper of HC Olomouc
                 </div>
                 <div>
 
