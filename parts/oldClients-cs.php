@@ -29,7 +29,7 @@
     </div>
     <div class="all-flex-center">
         <div class="old-clients-client all-flex-center">
-            <div class="old-clients-client-img">
+            <div class="old-clients-client-img old-clients-client-img-schejba">
                 <div>
 
                 </div>
@@ -47,7 +47,7 @@
     </div>
     <div class="all-flex-center">
         <div class="old-clients-client all-flex-center">
-            <div class="old-clients-client-img">
+            <div class="old-clients-client-img old-clients-client-img-prihoda">
                 <div>
 
                 </div>
@@ -65,7 +65,7 @@
     </div>
     <div class="all-flex-center">
         <div class="old-clients-client all-flex-center">
-            <div class="old-clients-client-img">
+            <div class="old-clients-client-img old-clients-client-img-bares">
                 <div>
 
                 </div>

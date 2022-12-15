@@ -669,7 +669,6 @@ video {
   width: 250px;
   height: 250px;
   border-radius: 250px;
-  background: url("pictures/img03.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 30px black;
@@ -677,6 +676,18 @@ video {
   grid-template-rows: auto 40px 40px auto;
   opacity: 0.9;
   transition: 0.5s;
+}
+.old-clients-client-img-bares{
+  background: url('/pictures/profile_bares.jpg');
+}
+.old-clients-client-img-prihoda{
+  background: url('/pictures/profile_prihoda.jpg');
+}
+.old-clients-client-img-schejbal{
+  background: url('/pictures/profile_schejbal.jpg');
+}
+.old-clients-client-img-mruzek{
+  background: url('');
 }
 
 .old-clients-client:hover {
