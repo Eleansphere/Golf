@@ -51,7 +51,7 @@
 </div>
 <div class="social">
     <div class="all-flex-center">
-        <a href="https://cz.linkedin.com/in/marek-filip-b39786137?trk=people-guest_people_search-card" target="_blank" style="text-decoration: none;">
+        <a href="https://www.linkedin.com/company/filip-sport-management" target="_blank" style="text-decoration: none;">
         <div class="social-item">
             <div class="all-flex-center">
                 <svg class="contact-item-ico-linkedin" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

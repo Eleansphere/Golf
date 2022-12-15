@@ -17,7 +17,7 @@
                 </div>
                 <div class="flex-left-center">
                     <p class="clients-client-about-text">
-                    Aktuální klienty zveřejníme se začátkem nové sezóny.
+                    AKTUALIZUJEME
                     </p>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="flex-left-center">
                         <p class="clients-client-about-text">
-                        Aktuální klienty zveřejníme se začátkem nové sezóny.
+                        AKTUALIZUJEME
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="flex-left-center">
                     <p class="clients-client-about-text">
-                    Aktuální klienty zveřejníme se začátkem nové sezóny.
+                    AKTUALIZUJEME
                     </p>
                 </div>
             </div>

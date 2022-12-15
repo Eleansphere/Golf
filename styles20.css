@@ -388,6 +388,41 @@ video {
   background-position: center;
   background-size: cover;
 }
+.gallery-panel-img-06 {
+  background: url("pictures/img06.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-07 {
+  background: url("pictures/img07.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-08 {
+  background: url("pictures/img08.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-09 {
+  background: url("pictures/img09.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-10 {
+  background: url("pictures/img10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-11 {
+  background: url("pictures/img11.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery-panel-img-12 {
+  background: url("pictures/img12.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .gallery-panel-img-filter {
   width: 100%;
