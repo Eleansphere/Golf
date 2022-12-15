@@ -669,8 +669,6 @@ video {
   width: 250px;
   height: 250px;
   border-radius: 250px;
-  background-size: cover;
-  background-position: center;
   box-shadow: 0px 0px 30px black;
   display: grid;
   grid-template-rows: auto 40px 40px auto;
@@ -678,17 +676,20 @@ video {
   transition: 0.5s;
 }
 .old-clients-client-img-bares{
-  background: url('/pictures/profile_bares.jpg');
+  background: url('/pictures/profile_bares.jpg') top;
+  background-size: cover;
 }
 .old-clients-client-img-prihoda{
-  background: url('/pictures/profile_prihoda.jpg');
+  background: url('/pictures/profile_prihoda.jpg') top;
+  background-size: cover;
 }
 .old-clients-client-img-schejbal{
-  background: url('/pictures/profile_schejbal.jpg');
+  background: url('/pictures/profile_schejbal.jpg') top;
+  background-size: cover;
 }
-.old-clients-client-img-mruzek{
+/* .old-clients-client-img-mruzek{
   background: url('');
-}
+} */
 
 .old-clients-client:hover {
   transform: scale(1.1);
