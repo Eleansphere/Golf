@@ -1063,7 +1063,7 @@ textarea {
 
   .gallery-panel {
     height: 200px;
-    grid-template-columns: repeat(5, 300px);
+    grid-template-columns: repeat(12, 300px);
     margin-top: 40px;
 
   }

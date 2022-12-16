@@ -66,7 +66,8 @@
     <?php include("parts/en/oldClients-en.php") ?>
     <?php include("parts/en/investice-en.php") ?>
     <?php include("parts/contact.php") ?>
-    
+    <language class="languageFrameClick" data-type="flag">
+        </language>
     <footer>
         Created by:  <p classs="footer-strong-text">Jakub Šťastný and Vojtěch Franek</p> &copy;2022
         <button class="footer-scroll-btn"><img src="pictures/back_to_top.svg" alt=""></button>
