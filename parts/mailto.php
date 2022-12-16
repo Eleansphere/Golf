@@ -29,7 +29,7 @@ try {
     $mail->isHTML(true);         
 
     //Recipients
-    $mail->setFrom('aionacountsm@gmail.com', 'Golfové blbiny');
+    $mail->setFrom('aionacountsm@gmail.com', 'Filipsport');
     $mail->addAddress('aionacountsm@gmail.com');
     $mail->addReplyTo($fromEmail);
 
@@ -52,7 +52,7 @@ try {
     $mail->Send(); // Send
 
 
-    header("location: /golf/index.php?sent");
+    header("location:/index.php?sent");
     //návrat na index po poslání zprávy
 }
     catch (Exception $e) {
