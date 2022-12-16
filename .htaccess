@@ -49,19 +49,14 @@ FileETag None
 # END Turn ETags Off
 
 #CZ
-RewriteRule	^(o-nas.html)$          /templates/cz/o_nas.php?cool_name=$1	        [L,QSA]
-RewriteRule	^(sluzby.html)$         /templates/cz/sluzby.php?cool_name=$1	        [L,QSA]
-RewriteRule	^(klienti.html)$        /templates/cz/klienti.php?cool_name=$1	        [L,QSA]
-RewriteRule	^(pro-investory.html)$  /templates/cz/pro_investory.php?cool_name=$1	[L,QSA]
-RewriteRule	^(kontakt.html)$        /templates/cz/kontakt.php?cool_name=$1	        [L,QSA]
+# RewriteRule	^(o-nas.html)$          /templates/cz/o_nas.php?cool_name=$1	        [L,QSA]
+# RewriteRule	^(sluzby.html)$         /templates/cz/sluzby.php?cool_name=$1	        [L,QSA]
+# RewriteRule	^(klienti.html)$        /templates/cz/klienti.php?cool_name=$1	        [L,QSA]
+# RewriteRule	^(pro-investory.html)$  /templates/cz/pro_investory.php?cool_name=$1	[L,QSA]
+# RewriteRule	^(kontakt.html)$        /templates/cz/kontakt.php?cool_name=$1	        [L,QSA]
 
 #EN
-RewriteRule	^(about.html)$          /templates/en/about.php?cool_name=$1	[L,QSA]
-RewriteRule	^(services.html)$         /templates/en/services.php?cool_name=$1	[L,QSA]
-RewriteRule	^(clients.html)$        /templates/en/clients.php?cool_name=$1	[L,QSA]
-RewriteRule	^(contact.html)$        /templates/en/contact.php?cool_name=$1	[L,QSA]
-
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} ^(www\.)?filipsport\.eu$
-RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R=301,L]
+# RewriteRule	^(about.html)$          /templates/en/about.php?cool_name=$1	[L,QSA]
+# RewriteRule	^(services.html)$         /templates/en/services.php?cool_name=$1	[L,QSA]
+# RewriteRule	^(clients.html)$        /templates/en/clients.php?cool_name=$1	[L,QSA]
+# RewriteRule	^(contact.html)$        /templates/en/contact.php?cool_name=$1	[L,QSA]
