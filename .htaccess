@@ -1,0 +1,67 @@
+RewriteEngine On
+
+# BEGIN Compress
+#<ifModule mod_deflate.c>
+#  AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain
+#  AddOutputFilterByType DEFLATE image/svg+xml application/xhtml+xml application/xml
+#  AddOutputFilterByType DEFLATE application/rdf+xml application/rss+xml application/atom+xml
+#  AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript application/json
+#  AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-otf
+#  AddOutputFilterByType DEFLATE font/truetype font/opentype
+#</ifModule>
+# END Compress
+
+# BEGIN Cache-Control Headers
+<ifModule mod_headers.c>
+  <filesMatch "\.(ico|jpe?g|svg|png|gif|swf)$">
+    Header set Cache-Control "public"
+  </filesMatch>
+  <filesMatch ".(css|js)$">
+    Header set Cache-Control "public"
+  </filesMatch>
+  <filesMatch "\.(x?html?|php)$">
+    Header set Cache-Control "private, must-revalidate"
+  </filesMatch>
+</ifModule>
+# END Cache-Control Headers
+ 
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access 1 year"
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType text/css "access 1 month"
+  ExpiresByType text/html "access 1 month"
+  ExpiresByType application/pdf "access 1 month"
+  ExpiresByType text/x-javascript "access 1 month"
+  ExpiresByType application/x-shockwave-flash "access 1 month"
+  ExpiresByType image/x-icon "access 1 year"
+  ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##
+
+ 
+# BEGIN Turn ETags Off
+FileETag None
+# END Turn ETags Off
+
+#CZ
+RewriteRule	^(o-nas.html)$          /templates/cz/o_nas.php?cool_name=$1	        [L,QSA]
+RewriteRule	^(sluzby.html)$         /templates/cz/sluzby.php?cool_name=$1	        [L,QSA]
+RewriteRule	^(klienti.html)$        /templates/cz/klienti.php?cool_name=$1	        [L,QSA]
+RewriteRule	^(pro-investory.html)$  /templates/cz/pro_investory.php?cool_name=$1	[L,QSA]
+RewriteRule	^(kontakt.html)$        /templates/cz/kontakt.php?cool_name=$1	        [L,QSA]
+
+#EN
+RewriteRule	^(about.html)$          /templates/en/about.php?cool_name=$1	[L,QSA]
+RewriteRule	^(services.html)$         /templates/en/services.php?cool_name=$1	[L,QSA]
+RewriteRule	^(clients.html)$        /templates/en/clients.php?cool_name=$1	[L,QSA]
+RewriteRule	^(contact.html)$        /templates/en/contact.php?cool_name=$1	[L,QSA]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.)?filipsport\.eu$
+RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R=301,L]
