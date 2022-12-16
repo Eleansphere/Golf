@@ -28,11 +28,11 @@ RewriteEngine On
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresByType image/jpg "access 1 year"
-  ExpiresByType image/jpeg "access 1 year"
-  ExpiresByType image/gif "access 1 year"
-  ExpiresByType image/png "access 1 year"
-  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType image/jpg "access 1 month"
+  ExpiresByType image/jpeg "access 1 month"
+  ExpiresByType image/gif "access 1 month"
+  ExpiresByType image/png "access 1 month"
+  ExpiresByType image/svg+xml "access 1 month"
   ExpiresByType text/css "access 1 month"
   ExpiresByType text/html "access 1 month"
   ExpiresByType application/pdf "access 1 month"
@@ -60,3 +60,7 @@ FileETag None
 # RewriteRule	^(services.html)$         /templates/en/services.php?cool_name=$1	[L,QSA]
 # RewriteRule	^(clients.html)$        /templates/en/clients.php?cool_name=$1	[L,QSA]
 # RewriteRule	^(contact.html)$        /templates/en/contact.php?cool_name=$1	[L,QSA]
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+RewriteRule ^ https://www.filipsport.eu%{REQUEST_URI} [R=301,L]
