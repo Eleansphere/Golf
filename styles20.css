@@ -723,9 +723,10 @@ video {
   background: url('/pictures/profile_schejbal_2.jpg') top;
   background-size: cover;
 }
-/* .old-clients-client-img-mruzek{
-  background: url('');
-} */
+.old-clients-client-img-mruzek{
+  background: url('/pictures/profile_mruzek.jpg') top;
+  background-size: cover;
+}
 
 .old-clients-client:hover {
   transform: scale(1.1);

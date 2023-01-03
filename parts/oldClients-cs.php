@@ -11,7 +11,7 @@
 <div class="old-clients" id="old-client-slide">
     <div class="all-flex-center">
         <div class="old-clients-client all-flex-center">
-            <div class="old-clients-client-img">
+            <div class="old-clients-client-img old-clients-client-img-mruzek">
                 <div>
 
                 </div>
