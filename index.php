@@ -11,6 +11,7 @@
 
     gtag('config', 'G-DZ2DR04MKX');
     </script>
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/11b6c63f641386357d04cb25511442ff.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Sport Management</title>
