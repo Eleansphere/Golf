@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="styles20.css" media="all">
     <link rel="stylesheet" href="language/language.css">
     <link rel="alternate" href="index-en.php" hreflang="en">
-    <link rel="alternate" href="index.php" hreflang="cs">
+    <link rel="alternate" href="index.php" hreflang="cs"> 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ2DR04MKX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DZ2DR04MKX');
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
