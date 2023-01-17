@@ -2,15 +2,8 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filip Sport Management</title>
-    <link rel="stylesheet" href="styles20.css" media="all">
-    <link rel="stylesheet" href="language/language.css">
-    <link rel="alternate" href="index-en.php" hreflang="en">
-    <link rel="alternate" href="index.php" hreflang="cs"> 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ2DR04MKX"></script>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ2DR04MKX"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -18,6 +11,13 @@
 
     gtag('config', 'G-DZ2DR04MKX');
     </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Sport Management</title>
+    <link rel="stylesheet" href="styles20.css" media="all">
+    <link rel="stylesheet" href="language/language.css">
+    <link rel="alternate" href="index-en.php" hreflang="en">
+    <link rel="alternate" href="index.php" hreflang="cs"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
