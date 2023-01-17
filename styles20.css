@@ -10,7 +10,10 @@ body {
   padding-bottom: 0px;
   overflow-x: hidden;
 }
-
+#cookiescript_badgeimage > img {
+  max-width: 20px;
+  max-height: 20px;
+}
 .left-flex-center {
   display: flex;
   justify-content: left;
