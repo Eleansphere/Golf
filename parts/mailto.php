@@ -22,15 +22,15 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';               
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'aionacountsm';                     //SMTP username
-    $mail->Password   = 'nrmiivfdusjibouu';                               //SMTP password
+    $mail->Username   = 'filipsportwebsite';                     //SMTP username
+    $mail->Password   = 'iaypqfrvvpjgqphv';                               //SMTP password
     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
     $mail->Port       = 587;
     $mail->isHTML(true);         
 
     //Recipients
-    $mail->setFrom('aionacountsm@gmail.com', 'Filipsport');
-    $mail->addAddress('aionacountsm@gmail.com');
+    $mail->setFrom('filipsportwebsite@gmail.com', 'Filipsport');
+    $mail->addAddress('filipsportwebsite@gmail.com');
     $mail->addReplyTo($fromEmail);
 
     //celá zpráva
