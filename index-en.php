@@ -45,7 +45,11 @@
          text: {
              required: true,
              minlength: 10
-         }
+         },
+         textfake: {
+                        required: true,
+                        maxlength: 0
+                    }
      },
      // zprávy
      messages: {

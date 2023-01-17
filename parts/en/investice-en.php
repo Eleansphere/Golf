@@ -21,6 +21,7 @@
             <input type="text" name="jmeno" placeholder="Name" maxlength="255" required>
             <input type="email" name="odesilatel" placeholder="E-mail" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="255" validate>
             <textarea rows="8" name="text" cols="1" placeholder="Message" maxlength="255" required></textarea>
+            <input type="text" name="textfake" id="textfake" style="display: none;">
             <button type="submit" name="submit">Submit</button>     
         </form>
 
