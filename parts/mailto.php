@@ -4,17 +4,17 @@ use PHPMailer\PHPMailer\Exception;
 
 
 require 'vendor/autoload.php';
-
-
+if($_POST){
+    $honeypot =$_POST['a_password'];
    $name = filter_var($_POST['jmeno'], FILTER_SANITIZE_FULL_SPECIAL_CHARS); //Jméno pisatele
    $fromEmail = filter_var($_POST['odesilatel'], FILTER_SANITIZE_FULL_SPECIAL_CHARS); //email pisatele
    $subject = filter_var($_POST['text'], FILTER_SANITIZE_FULL_SPECIAL_CHARS); //zpráva od pisatele
    $confirmationSubject = "Dotaz webové stránce Filip Sport Management"; //Předmět zprávy
    $confirmation = "Potvrzení: Vaše zpráva byla úspěšně odeslána."; // Zpráva pro pisatele, že email byl odeslán
- 
-
+   
   
    $mail = new PHPMailer(true);
+   if(!empty( $honeypot )) return;
 try {
     //Server settings
     $mail->CharSet = "UTF-8";
@@ -58,6 +58,6 @@ try {
     catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-
+}
  
 ?>
